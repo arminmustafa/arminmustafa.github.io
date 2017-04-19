@@ -1,78 +1,498 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
-<title>Segmentation based features for wide-baseline multi-view reconstruction</title>
-<link rel="stylesheet" href="style.css" type="text/css" media="all" /> 
-<meta name="description" content="Mustafa, A., Kim, H. and Imre, E. and Hilton, A.; Segmentation based features for wide-baseline multi-view reconstruction" /> 
-<meta name="keywords" content="Segmentation based features for wide-baseline multi-view reconstruction, International conference on 3D vision, 3DV 2015" /> 
-<meta http-equiv="Content-type" content="text/html;charset=UTF-8" /> 
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.js"></script>
+<!doctype html>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-64375-4', 'auto');
+  ga('send', 'pageview');
+</script>
+<head><meta charset="utf-8">
+	<title>Armin Mustafa</title>
+	<meta name="title" content="Armin Mustafa" />
+	<meta name="description" content="Armin Mustafa" />
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
 
+	<link rel="shortcut icon" id="favicon" href="favicon.png"> 
+	<meta name="author" content="Armin Mustafa">
+
+	<!-- JAVASCRIPT -->	
+	<script type="text/javascript" src="./docs/files/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="./bootstrap/js/bootstrap.min.js"></script>
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./docs/files/css.css">
+
+	<!-- Docs Bootstrap: getbootstrap.com -->
 </head>
+<!-- The attributes of the body are thinking because the menu where you are while you scroll. The offset coincides with the padding-top of the body -->
+<body id="armin" data-spy="scroll" data-target="#menu" data-offset="70">
+	<!-- MENU SUPERIOR -->
+	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+		<div class="container-fluid">
+			<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
+				<!-- navbar-header is the name of the website (Armin Mustafa) and the menu for mobile -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#armin"><font size="+3">Armin Mustafa</font></a><br>
+				</div>
+				<!-- The collapse class is to convert the menu into the boto per mobil -->
+				<div class="collapse navbar-collapse" id="menu">
+					<ul class="nav navbar-nav navbar-left">
+						<li><a href="#bio">Home</a></li>
+						<li><a href="#research">Research</a></li>
+						<li><a href="#cv">CV</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+					<div class="social-icons pull-right">
+						<a href="https://www.linkedin.com/in/armin-mustafa-8b7b886" target="_blank"><img class="nav-social linkedin" src="docs/files/linkedin.png" /></a>
+						<a href="https://www.researchgate.net/profile/Armin_Mustafa" target="_blank"><img class="nav-social" src="docs/files/rg.png" /></a>
+						<a href="https://www.facebook.com/arminmustafa" target="_blank"><img class="nav-social" src="docs/files/fb.png" /></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+		<div class="custom-header-media">
+		<div id="wp-custom-header" class="wp-custom-header"><img src="docs/files/header.png" width="1380" height="308" ></div></div>
+	<!-- The ID for each section are for captions that scroll to click on the menu, would become links -->
+	<section id="bio">
+		<div class="container-fluid">
+			<div class="cos col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12 col-xs-12" id="top">
+				<h3><font size="+2" color="#000080">Biography</font></h3>
+				<p>
+					<img class="imgarmin" src="armin.jpg" />
+					I am currently a Research Fellow in the <a href="http://www.surrey.ac.uk/cvssp/">Centre for Vision, Speech and Signal Processing</a> group at the University of Surrey, UK. I finished PhD in Computer Vision from the University of Surrey (UK), supervised by <a href="http://kahlan.eps.surrey.ac.uk/Personal/AdrianHilton/Welcome.html">Prof. Adrian Hilton</a>. My PhD introduced novel methods for general dynamic scene reconstruction from multi-view videos. I have also worked at <a href="http://www.samsung.com/in/aboutsamsung/samsungelectronics/india/rnd/">Samsung Research Institute</a>, Bangalore, India for 3 years in Computer Vision. Previously, in 2010, I recieved my M.Tech. degree from the Indian Institute of Technology, Kanpur, India, where my thesis was supervised by <a href="http://home.iitk.ac.in/~venkats/index.html">Prof. K.S. Venkatesh</a> on Human Computer Interaction.
+				</p>
+				<p>
+					My research interests include Computer Vision, mainly related with 3D Reconstruction and Segmentation.
+				</p>
+				<!-- horitzontal bar -->
+				<hr>
+			</div>
+		</div>
+	</section>
 
-<body>
-<div id="wrapper">
-	<div id="header">	
-		<h2>Segmentation based features for wide-baseline multi-view reconstruction</h2>
-		<a href="https://www.linkedin.com/in/armin-mustafa-8b7b886" target="_blank">Armin Mustafa</a>, Hansung Kim</a>, Evren Imre</a> and <a href="http://cvssp.org/Personal/AdrianHilton/" target="_blank">Adrian Hilton</a> </br>
-		Centre for Vision, Speech & Signal Processing
-		</br>University of Surrey, United Kingdom</br></br>
+	<section id="research">
+		<div class="container-fluid">
+			<div class="cos col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
+				<h3><font size="+2" color="#000080">Research</font></h3>
+				<!-- IMPORTANT: Note that the table has the class "table-responsive." This is because suits screen resolutions without having to give a size for the columns (td) -->
+				<h4><b>Publications</b></h4>
+				<!-- create table-responsive tables responsive to the xapuza made me do it -->
+				<h4>2017</h4>
+				<table class="table-responsive">
+					<tr>
+						<td>
+							<a href="#">
+								<img class="imgres" src="docs/cvpr17/ArminCVPR2017.png" />
+							</a>
+						</td>
+						<td>
+							<a href="docs/cvpr17/ArminCVPR2017.pdf">Semantically Coherent Co-segmentation and Reconstruction of Dynamic Scenes</a><br>
+							<a href="http://arminmustafa.github.io">Armin Mustafa</a> and <a href="http://personal.ee.surrey.ac.uk/Personal/A.Hilton/">Adrian Hilton</a><br>
+							to appear at <i>IEEE International Conference in Computer Vision & Pattern Recognition CVPR, 2017</i><br>
+							<!-- btn-group is to create groups of buttons. The size of the class brand btn-group in this case, it does not specify the specific button -->
+							<span class="btn-group btn-group-xs">
+								<a class="btn btn-success" target="_blank" href="docs/cvpr17/ArminCVPR2017.pdf">PDF</a>
+								<a class="btn btn-success" target="_blank" href="http://cvssp.org/projects/4d/4DRecon/">Project</a>
+								<a class="btn btn-success" target="_blank" href="https://youtu.be/obnDpiDnScI">Video</a>
+								<!--<a class="btn btn-success" target="_blank" href="docs/cvpr17/cvpr17.bib">bib</a>-->
+								<!--<a class="btn btn-success" target="_blank" href="#">web</a>-->
+								<!--<a class="btn btn-success" target="_blank" href="#">data</a>-->
+							</span>
+						</td>
+					</tr>
+				</table>
+				<br/>
+				<h4>2016</h4>
+				<table class="table-responsive">
+					<tr>
+						<td>
+							<a href="#">
+								<img class="imgres" src="docs/cvpr16/ArminCVPR2016.png" />
+							</a>
+						</td>
+						<td>
+							<a href="docs/cvpr16/ArminCVPR2016.pdf">Temporally Coherent 4D Reconstruction of Complex Dynamic Scenes (Oral)</a><br>
+							<a href="http://arminmustafa.github.io">Armin Mustafa</a>, Hansung Kim, <a href="http://personal.ee.surrey.ac.uk/Personal/J.Guillemaut/" target="_blank">Jean-Yves Guillemaut</a> and <a href="http://personal.ee.surrey.ac.uk/Personal/A.Hilton/">Adrian Hilton</a><br>
+							at <i>IEEE International Conference in Computer Vision & Pattern Recognition CVPR, 2016</i><br>
+							<span class="btn-group btn-group-xs">
+								<a class="btn btn-success" target="_blank" href="docs/cvpr17/ArminCVPR2016.pdf">PDF</a>
+								<a class="btn btn-success" target="_blank" href="http://cvssp.org/projects/4d/4DRecon/">Project</a>
+								<a class="btn btn-success" target="_blank" href="https://youtu.be/bm_P13_-DsQ">Video</a>
+								<a class="btn btn-success" target="_blank" href="docs/cvpr17/poster.pdf">Poster</a>
+								<a class="btn btn-success" target="_blank" href="docs/cvpr17/ppt.pdf">PPT</a>
+								<!--<a class="btn btn-success" target="_blank" href="docs/cvpr17/cvpr17.bib">bib</a>-->
+							</span>
+						</td>
+					</tr>
+				</table>
+				<br/>
+				<table class="table-responsive">
+					<tr>
+						<td>
+							<a href="#">
+								<img class="imgres" src="docs/eccv16/ArminECCV2016.png" />
+							</a>
+						</td>
+						<td>
+							<a href="docs/eccv16/ArminECCV2016.pdf">4D Match Trees for Non-rigid Surface Alignment</a><br>
+							<a href="http://arminmustafa.github.io">Armin Mustafa</a>, Hansung Kim and <a href="http://personal.ee.surrey.ac.uk/Personal/A.Hilton/">Adrian Hilton</a><br>
+							at <i>The 14th European Conference on Computer Vision, ECCV 2016</i><br>
+							<span class="btn-group btn-group-xs">
+								<a class="btn btn-success" target="_blank" href="docs/cvpr17/ArminECCV2016.pdf">PDF</a>
+								<a class="btn btn-success" target="_blank" href="http://cvssp.org/projects/4d/4Dnonseq/">Project</a>
+								<a class="btn btn-success" target="_blank" href="https://youtu.be/GPu-UKppCfk">Video</a>
+								<a class="btn btn-success" target="_blank" href="docs/eccv16/poster.pdf">Poster</a>
+								<!--<a class="btn btn-success" target="_blank" href="docs/cvpr17/cvpr17.bib">bib</a>-->
+								<!--<a class="btn btn-success" target="_blank" href="http://dx.doi.org/10.1111/cgf.12756">DOI</a>-->
+								<!--<a class="btn btn-success" target="_blank" href="#">data</a>-->
+							</span>
+						</td>
+					</tr>
+				</table>
+				<br/>
+				<h4>2015</h4>
+				<table class="table-responsive">
+					<tr>
+						<td>
+							<a href="#">
+								<img class="imgres" src="docs/iccv15/ArminICCV2015.png" />
+							</a>
+						</td>
+						<td>
+							<a href="docs/iccv15/ArminICCV2015.pdf">General Dynamic Scene Reconstruction from Multiple View Video</a><br>
+							<a href="http://arminmustafa.github.io">Armin Mustafa</a>, Hansung Kim, <a href="http://personal.ee.surrey.ac.uk/Personal/J.Guillemaut/" target="_blank">Jean-Yves Guillemaut</a> and <a href="http://personal.ee.surrey.ac.uk/Personal/A.Hilton/">Adrian Hilton</a><br>
+							at <i>International Conference on Computer Vision (ICCV) 2015</i><br>
+							<span class="btn-group btn-group-xs">
+								<a class="btn btn-success" target="_blank" href="docs/iccv15/ArminICCV2015.pdf">PDF</a>
+								<a class="btn btn-success" target="_blank" href="http://cvssp.org/projects/4d/DyRecon/">Project</a>
+								<a class="btn btn-success" target="_blank" href="https://youtu.be/uIDeJ1_MvaE">Video</a>
+								<a class="btn btn-success" target="_blank" href="docs/iccv15/poster.pdf">Poster</a>
+								<!--<a class="btn btn-success" target="_blank" href="docs/cvpr17/cvpr17.bib">bib</a>-->
+								<!--<a class="btn btn-success" target="_blank" href="http://www.cvssp.org/projects/4d/4DVT/#data">data</a>-->
+								<!--<a class="btn btn-success" target="_blank" href="#">data</a>-->
+							</span>
+						</td>
+					</tr>
+				</table>
+				<br/>
+				<table class="table-responsive">
+					<tr>
+						<td>
+							<a href="#">
+								<img class="imgres" src="docs/3dv15/Armin3DV2015.png" />
+							</a>
+						</td>
+						<td>
+							<a href="docs/3dv15/Armin3DV2015.pdf">Segmentation based Features for Wide-baseline Multi-view Reconstruction (Oral)</a><br>
+							<a href="http://arminmustafa.github.io">Armin Mustafa</a>, Hansung Kim, Evren Imre and <a href="http://personal.ee.surrey.ac.uk/Personal/A.Hilton/">Adrian Hilton</a><br>
+							at <i>3D Vision (3DV) 2015</i><br>
+							<span class="btn-group btn-group-xs">
+								<a class="btn btn-success" target="_blank" href="docs/3dv15/Armin3DV2015.pdf">PDF</a>
+								<a class="btn btn-success" target="_blank" href="http://cvssp.org/projects/4d/SFD/">Project</a>
+								<a class="btn btn-success" target="_blank" href="https://youtu.be/m3NThvKpR5w">Video</a>
+								<a class="btn btn-success" target="_blank" href="docs/3dv15/poster.pdf">Poster</a>
+								<a class="btn btn-success" target="_blank" href="docs/3dv15/ppt.pdf">PPT</a>
+								<!--<a class="btn btn-success" target="_blank" href="docs/cvpr17/cvpr17.bib">bib</a>-->
+							</span>
+						</td>
+					</tr>
+				</table>
+				<br/>
+				<h4>2012</h4>
+				<table class="table-responsive">
+					<tr>
+						<td>
+							<a href="#">
+								<img class="imgres" src="docs/masters/book.png" />
+							</a>
+						</td>
+						<td>
+							<b>Book Chapter</b><br/>
+							<a href="docs/masters/book.pdf">Multi Finger Gesture Recognition and Classification in Dynamic Environment under Varying Illumination upon Arbitrary Background</a><br>
+							<a href="http://arminmustafa.github.io">Armin Mustafa</a> and <a href="http://home.iitk.ac.in/~venkats/index.html">K.S. Venkatesh</a><br>
+							in Speech, Image, and Language Processing for Human Computer Interaction: Multi-Modal Advancements 2012</i><br>
+							<span class="btn-group btn-group-xs">
+								<a class="btn btn-success" target="_blank" href="docs/masters/book.pdf">PDF</a>
+								<a class="btn btn-success" target="_blank" href="http://www.igi-global.com/book/speech-image-language-processing-human/60784">Press</a>								
+							</span>
+						</td>
+					</tr>
+				</table>
+				<br/>
+				<h4>2011</h4>
+				<table class="table-responsive">
+					<tr>
+						<td>
+							<a href="#">
+								<img class="imgres" src="docs/masters/paper.png" />
+							</a>
+						</td>
+						<td>
+							<a href="docs/masters/paper.pdf">Background Reflectance Modeling for Robust Finger Gesture Detection in Highly Dynamic Illumination</a><br>
+							<a href="http://arminmustafa.github.io">Armin Mustafa</a> and <a href="http://home.iitk.ac.in/~venkats/index.html">K.S. Venkatesh</a><br>
+							at <i>In International Conference on Hybrid Information Technology, volume 6935 of Lecture Notes in Computer Science, 2011</i><br>
+							<span class="btn-group btn-group-xs">
+								<a class="btn btn-success" target="_blank" href="docs/masters/paper.pdf">PDF</a>
+							</span>
+						</td>
+					</tr>
+				</table>
+				<br/>
+				<h4><b>Selected Patents</b></h4>
+				<h4>2013</h4>
+				<table class="table-responsive">
+					<tr>
+						<td>
+							<a href="#">
+								<img class="imgres" src="docs/masters/samsung.png" />
+							</a>
+						</td>
+						<td>
+							<a href="docs/masters/patent.pdf">Method and apparatus for converting 2d video to 3d video</a><br>
+							U.S. and Korean Patent 2013</i><br>
+							<span class="btn-group btn-group-xs">
+								<a class="btn btn-success" target="_blank" href="https://www.google.com/patents/US20140210944">LINK</a>
+							</span>
+						</td>
+					</tr>
+				</table>
+				<br/>
+				<h4>2010</h4>
+				<table class="table-responsive">
+					<tr>
+						<td>
+							<a href="#">
+								<img class="imgres" src="docs/masters/patent.png" />
+							</a>
+						</td>
+						<td>
+							<a href="docs/masters/patent.pdf">A Method and System for Human Gesture based on Visual Contour Analysis</a><br>
+							<a href="http://arminmustafa.github.io">Armin Mustafa</a> and <a href="http://home.iitk.ac.in/~venkats/index.html">K.S. Venkatesh</a><br>
+							Indian Patent 2010</i><br>
+							<span class="btn-group btn-group-xs">
+								<a class="btn btn-success" target="_blank" href="http://www.iitk.ac.in/siic/d/content/method-and-system-human-gesture-based-visual-contour-analysis">LINK</a>
+							</span>
+						</td>
+					</tr>
+				</table>
+				<br/>
+				<h4><b>Short Papers, Talks and Miscellaneous</b></h4>
+				<h4>2016</h4>
+				<table class="table-responsive">
+					<tr>
+						<td>
+							<a href="#">
+								<img class="imgres" src="docs/symposium/symposium.png" />
+							</a>
+						</td>
+						<td>
+							<a> General 4D Scene Reconstruction (Talk)</a><br>
+							<a href="http://arminmustafa.github.io">Armin Mustafa</a>, Hansung Kim and <a href="http://personal.ee.surrey.ac.uk/Personal/A.Hilton/">Adrian Hilton</a><br>
+							at <i>Symposium on Computer Vision and Video Effects Generation, Organized by Rank Prize Funds, UK, 2016</i><br>
+							<span class="btn-group btn-group-xs">
+								<a class="btn btn-success" target="_blank" href="docs/symposium/ppt.pdf">PPT</a>
+							</span>
+						</td>
+					</tr>
+				</table>
+				<br/>		
+				<h4>2014</h4>
+				<table class="table-responsive">
+					<tr>
+						<td>
+							<a href="#">
+								<img class="imgres" src="docs/cvmp14/ArminCVMP2014.png" />
+							</a>
+						</td>
+						<td>
+							<a href="docs/cvmp14/ArminCVMP2014.pdf">Initial Disparity Estimation using Sparse Matching for Wide-baseline Dense Stereo (Short Paper)</a><br>
+							<a href="http://arminmustafa.github.io">Armin Mustafa</a>, Hansung Kim, Evren Imre and <a href="http://personal.ee.surrey.ac.uk/Personal/A.Hilton/">Adrian Hilton</a><br>
+							at <i>The 11th European Conference in Visual Media Production (CVMP) 2015</i><br>
+							<span class="btn-group btn-group-xs">
+								<a class="btn btn-success" target="_blank" href="docs/cvmp14/ArminCVMP2014.pdf">PDF</a>
+								<a class="btn btn-success" target="_blank" href="docs/cvmp14/poster.pdf">Poster</a>
+							</span>
+						</td>
+					</tr>
+				</table>
+				<!-- horitzontal tab -->
+				<hr>
+			</div>
+		</div>
+	</section>
+	<section id="cv">
+		<div class="container-fluid">
+			<div class="cos col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-8 col-xs-8">
+				<h3><font size="+2" color="#000080">CV</font></h3>
+				<h4><b>Work Experience</b></h4>
+				<table class="table-responsive">
+					<tr>
+						<td>
+						<img class="img-rounded" src="docs/files/surrey.png" />
+						</td>
+						<td>
+							<font size="+0.25">Research Fellow: Oct' 2016 - Present</font> <br style="line-height: 8px" />
+							<b>Centre for Vision, Speech and Signal Processing, University of Surrey, UK </b><br/>
+						</td>
+					</tr>
+				</table>
+				<br/>
+				<table class="table-responsive">
+					<tr>
+						<td>
+						<img class="img-rounded" src="docs/files/samsung.jpg" />
+						</td>
+						<td>
+							<font size="+0.25">Lead Engineer: Apr’ 2012 – May’ 2013</font> <br style="line-height: 8px" />
+							<b>Samsung Research Institute India, Bangalore, India</b><br/>
+						</td>
+					</tr>
+				</table>
+				<br/>
+				<table class="table-responsive">
+					<tr>
+						<td>
+						<img class="img-rounded" src="docs/files/samsung.jpg" />
+						</td>
+						<td>
+							<font size="+0.25">Senior Software Engineer: Aug’ 2010 – Mar' 2012</font> <br style="line-height: 8px" />
+							<b>Samsung Research Institute India, Bangalore, India</b><br/>
+						</td>
+					</tr>
+				</table>
+				<br/>
+				<h4><b>Education</b></h4>
+				<table class="table-responsive">
+					<tr>
+						<td>
+							<a href="docs/Thesis_ArminMustafa.pdf">
+								<img class="img-rounded" src="docs/files/surrey.png" />
+							</a>
+						</td>
+						<td>
+							<font size="+0.25">PhD: Jul' 2013 – Dec’ 2016</font> <br style="line-height: 8px" />
+							<b>Centre for Vision, Speech and Signal Processing, University of Surrey, UK </b><br/>
+							Thesis: <a href="docs/Thesis_ArminMustafa.pdf">General Dynamic 4D Scene Reconstruction from Multi-view Videos</a><br/> 
+							Advisor:  <a href="http://personal.ee.surrey.ac.uk/Personal/A.Hilton/">Prof. Adrian Hilton</a><br/>
+						</td>
+					</tr>
+				</table>
+				<br/>
+				<table class="table-responsive">
+					<tr>
+						<td>
+							<a href="docs/pfc.pdf">
+								<img class="img-rounded" src="docs/files/iit.png" />
+							</a>
+						</td>
+						<td>
+							<font size="+0.25">M.Tech: Aug’ 2008 – June’ 2010</font> <br style="line-height: 8px" />
+							<b>Computer vision lab, Indian Institute of Technology, Kanpur, India</b><br/>
+							Thesis: <a href="docs/masters/thesis.pdf"> Finger Gesture Recognition in Dynamic Environment under Varying Illumination upon Arbitrary Background </a><br/>
+							Advisor:  <a href="http://home.iitk.ac.in/~venkats/index.html">Prof. K.S. Venkatesh</a><br/>
+						</td>
+					</tr>
+				</table>
+				<br/>
+				<table class="table-responsive">
+					<tr>
+						<td>
+							<a href="docs/pfc.pdf">
+								<img class="img-rounded" src="docs/files/iet.jpg" />
+							</a>
+						</td>
+						<td>
+							<font size="+0.25">B.E.: Aug’ 2004 – May’ 2008</font> <br style="line-height: 8px" />
+							<b>Institute of Engineering and Technology, Indore, India</b><br/>
+						</td>
+					</tr>
+				</table>
+				<br/>
+				<h4><b>Teaching Experience</b></h4>
+				<table class="table-responsive">
+					<tr>
+						<td>
+						<img class="img-rounded" src="docs/files/surrey.png" />
+						</td>
+						<td>
+							<font size="+0.25">Teaching Assistant: Oct’ 2013 – Jan’ 2016</font> <br style="line-height: 8px" />
+							<b>Centre for Vision, Speech and Signal Processing, University of Surrey, UK </b><br/>
+						</td>
+					</tr>
+				</table>
+				<br/>
+				<table class="table-responsive">
+					<tr>
+						<td>
+						<img class="img-rounded" src="docs/files/iit.png" />
+						</td>
+						<td>
+							<font size="+0.25">Teaching Assistant: Apr’ 2009 – Mar’ 2010</font> <br style="line-height: 8px" />
+							<b>Indian Institute of Technology, Kanpur, India</b><br/>
+						</td>
+					</tr>
+				</table>
+				<br>
+			</div>
+		</div>
+	</section>
+	<section id="contact">
+		<div class="container-fluid">
+			<div class="cos col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
+				<h3><font size="+2" color="#000080">Contact</font></h3>
+				<!-- <h4>Postal address</h4>
+				<p>
+					Center for Vision, Speech and Signal Processing<br/>
+					University of Surrey<br/>
+					Department of Electronic Engineering<br/>
+					05BB00<br/>
+					Guildford, GU27XH<br/>
+					UK<br/>
+				</p> -->
+				
+				<h4><b>Internet</b></h4>
+				<!-- <i class="glyphicon glyphicon-envelope"></i> <a href="mailto:arminmustafa@gmail.com" target="_blank"> arminmustafa@gmail.com</a><br> -->
+				<i class="glyphicon glyphicon-envelope"></i> <a href="mailto:dcasas@mpi-inf.mpg.de" target="_blank"> a.mustafa@surrey.ac.uk</a><br>
+				<i class="glyphicon glyphicon-globe"></i> <a target="_blank" href="http://arminmustafa.github.io"> arminmustafa.github.io</a><br>
+				<i class="glyphicon glyphicon-globe"></i> <a target="_blank" href="https://www.linkedin.com/in/armin-mustafa-8b7b886/"> linkedin.com/in/arminmustafa</a><br>
+				<i class=""></i><br>
 
-		<em>appeared at</em> <br>
-		<a href="http://www.3dv.org/" target="_blank">International Conference on 3D Vision (3DV) 2015 (ORAL)</a></br></br></br></br>
+				<h4><b>Map</b></h4>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2497.6712896070258!2d-0.5907630845480522!3d51.24354843778183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4875d0c108435331%3A0xfa86e1de8e762d41!2sCentre+for+Vision%2C+Speech+and+Signal+Processing!5e0!3m2!1sen!2sus!4v1492513767293" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+				<!-- horitzontal tab-->
+				<hr>
+			</div>
+		</div>
+	</section>
 
-
-            <div class="responsive-container">
-           <iframe width="560" height="315" src="https://www.youtube.com/embed/m3NThvKpR5w" frameborder="0" allowfullscreen></iframe>
-            </div>
-	</div>
-
-	<div id="abstract">
-		<h3>Abstract</h3>
-		<p>A common problem in wide-baseline stereo is the sparse and non-uniform distributions of correspondences when using conventional detectors such as SIFT, SURF, FAST, and MSER.  In this paper, we introduce a novel segmentation based feature detector SFD that produces an increased number of ‘good’ features for accurate wide-baseline reconstruction.  Each image is  segmented into regions by over-segmentation and feature points are detected at the intersection of the  boundaries for three or more regions. Segmentation-based feature detection locates features at local  maxima giving a relatively large number of feature points which are consistently detected across wide-baseline views and accurately localised. A comprehensive comparative performance evaluation with  previous feature detection approaches demonstrates that: SFD produces a large number of features with increased scene coverage; detected features are consistent across wide-baseline views for images of a variety of indoor and outdoor scenes; and the number of wide-baseline matches is increased by an order of magnitude compared to alternative detector-descriptor combinations. Sparse scene reconstruction from multiple wide-baseline stereo views using the SFD feature detector demonstrates at least a factor six increase in the number of reconstructed points with reduced error distribution compared to SIFT when evaluated against ground-truth and similar computational cost to SURF/FAST.
-        </p>
-	</div> 
-
-
-	<div id="paper"> 
-		<h3>Paper</h3>
-		<a href="Armin3DV2015.pdf" target="_blank"><img src="Armin3DV2015.png" style="float:left; margin-right: 10px; margin-bottom:20px; padding-left:50px;"></a>
-		<p> <a href="Armin3DV2015.pdf" target="_blank" >Segmentation based features for wide-baseline multi-view reconstruction</a> <br/>
-					<a href="https://www.linkedin.com/in/armin-mustafa-8b7b886" target="_blank">Armin Mustafa</a>, Hansung Kim</a>, Evren Imre</a> and <a href="http://cvssp.org/Personal/AdrianHilton/" target="_blank">Adrian Hilton</a> </br>
-			<a href="http://www.3dv.org/" target="_blank">3DV 2015</a> <br/>
-			<a href="Armin3DV2015.pdf" target="_blank"><img src="icon-pdf.png"      style="width:30px;padding-right:5px;"/></a> 
-			<a href="Armin3DV2015Poster.pdf" target="_blank"><img src="icon_poster.png"      style="width:30px;padding-right:6px;"/></a>
-            <a href="Armin3DV2015PPT.pdf" target="_blank"><img src="icon_PPT.png"      style="width:30px;padding-right:6px;"/></a> 
-		</p><br><br><br>
-	</div>
-	<br><br>
-	
-	<div id="data">
-		<h3>Data</h3>
-		Data used in this work can be found in the <a href="http://cvssp.org/cvssp3d/" target="_blank">CVSSP 3D Data Repository</a>.
-	</div>
-	
-	<div id="Citation">
-		<h3>Citation</h3>
-		<pre>
-		@inproceedings{Mustafa15,
-			author = {Mustafa, A. and Kim, H. and Imre, E. and Hilton, A.},
-			title = {Segmentation based features for wide-baseline multi-view reconstruction},
-			booktitle = {3DV},
-			year = {2015}
-		}
-		</pre>
-	</div>
-
-	<div id="ack">
-		<h3>Acknowledgments</h3>
-        This research was supported by the European Commission, FP7 <a href="https://impart.upf.edu/" target="_blank">IMPART: Intelligent Management Platform for Advanced Real-time Media Processes project (grant 316564). 
-	</div>
-
-	<div id="footer">
-	</div>
-</div> <!-- end #wrapper -->
+	<section id="footer">
+		<div class="container-fluid">
+			<div class="cos col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
+				<center>
+					<small><i>Armin Mustafa 2017</i></small><br>
+				</center>
+				<br>
+			</div>
+		</div>
+	</section>
 </body>
 </html>
+<script type="text/javascript">    
+    /* SCROLL ALL LINKS */
+    $('#menu .navbar-left li a, .navbar-brand').bind('click', function(e) {
+        e.preventDefault(); // Disable default action (which is going to link directly, and so we are doing Molon scroll)
+        $('html,body').animate({scrollTop: $(this.hash).offset().top - 70}, 'slow');                                                         
+    });
+</script>

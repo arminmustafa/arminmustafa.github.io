@@ -1,5 +1,5 @@
 body {
-	background-color:#f0f0f0;
+	background-color:#ffffff;
 	font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
@@ -9,7 +9,9 @@ p {
 
 img
 {  
-	border-style: none;
+	border-style: solid;
+    border-color: white;
+	border-width: high;
 }
 
 a:link {text-decoration:none;
@@ -27,6 +29,11 @@ a:active {text-decoration:underline;}
 	margin-bottom: 10px;
 	padding:30px;
 	margin: 0 auto;
+}
+
+.container-fluid{
+    margin:0px auto;
+    width: 900px; 
 }
 
 #header {
