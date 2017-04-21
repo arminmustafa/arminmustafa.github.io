@@ -68,6 +68,23 @@ table, table tr {
 	border: none !important;
 	line-height: 20px;
 }
+
+/* For video addition */
+.contenidovid {
+    width: 100%;
+    margin: 0 auto;
+    float:left;
+}
+
+.video-wrapper {
+    position: relative;
+height: 200px;
+float: left;
+width: 30%;
+margin: 1%;
+}
+/* For video addition */
+
 /* FI GENERAL */
 
 /* NAVBAR */
