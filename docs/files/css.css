@@ -27,7 +27,7 @@ body {
 
 .imgarmin {
 	float:left;
-	width: 90px;
+	width: 120px;
 	margin-right: 10px;
 }
 
@@ -47,7 +47,7 @@ p {
 }
 
 a {
-	color: #3c763d;
+	color: #4791BA;
 }
 
 h3 {
@@ -177,13 +177,13 @@ margin: 1%;
 }
 
 .btn-group .btn-success {
-	color: #468847;
-	background-color: rgba(223,240,216,0.3);
-	border: 1px solid #d6e9c6;
+	color: #3a6f9a;
+	background-color: rgba(215,226,234,0.3);
+	border: 1px solid #2E587B;
 }
 
 .btn-group .btn-success:hover {
-	background-color: rgba(207,232,196,1);
+	background-color: rgba(192,204,215,1);
 }
 /* FI RESEARCH */
 
