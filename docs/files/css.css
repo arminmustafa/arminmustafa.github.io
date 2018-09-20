@@ -5,6 +5,7 @@
 
 html {
 	height: 100%;
+	width: 100%
 }
 
 body {
@@ -13,8 +14,8 @@ body {
 	height:100%;
 	font-size: 15px;
 	/* Fons gris */
-	/*background-color: #DEDEDE;*/
-	background-color: #FFFFFF;
+	/*background-color: #FFFFFF;*/
+	background-color: #DEDEDE; 
 	
 }
 
@@ -38,7 +39,7 @@ body {
 
 /* Classe que dona color al cos de la web (fons blanc) */
 .cos {
-	background-color: white;
+	background-color: #DEDEDE;
 }
 
 p {
@@ -78,10 +79,10 @@ table, table tr {
 
 .video-wrapper {
     position: relative;
-height: 200px;
-float: left;
-width: 30%;
-margin: 1%;
+	height: 200px;
+	float: left;
+	width: 30%;
+	margin: 1%;
 }
 /* For video addition */
 
