@@ -63,11 +63,11 @@ a:hover {
 }
 
 table, table tr {
-	font-size: 15px;
+	font-size: 14px;
 	/*font-weight: 200;*/
 	vertical-align: top;
 	border: none !important;
-	line-height: 20px;
+	line-height: 21px;
 }
 
 /* For video addition */
