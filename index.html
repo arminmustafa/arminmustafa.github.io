@@ -1,1398 +1,419 @@
-
-<!doctype html>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-97620958-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-<head><meta charset="utf-8">
-	<title>Armin Mustafa | RAEng Research Fellow | CVSSP | University of Surrey</title>
-	<meta name="title" content="Armin Mustafa" />
-	<meta name="description" content="Armin Mustafa" />
-	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
-
-	<link rel="shortcut icon" id="favicon" href="favicon.png"> 
-	<meta name="author" content="Armin Mustafa">
-
-	<meta name="keywords" content="Armin Mustafa, Armin, Armin Mustafa website, Mustafa personal webpage, CV, Research, Computer Vision, Researcher, Centre for Vision Speech and Signal Processing, CVSSP, University of Surrey, Surrey, Volumetric Capture, Volumetric Video, Multiple Camera Studio, VR, Virtual Reality, AR, Augmented Reality" />
-	
-	<!-- JAVASCRIPT -->	
-	<script type="text/javascript" src="./docs/files/jquery-1.11.1.min.js"></script>
-	<script type="text/javascript" src="./bootstrap/js/bootstrap.min.js"></script>
-
-	<!-- CSS -->
-	<link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" href="./docs/files/css.css">
-
-	<!-- Docs Bootstrap: getbootstrap.com -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Armin Mustafa | 4D Narrative AI, N4D Lab | University of Surrey</title>
+<meta name="description" content="Armin Mustafa directs the N4D Lab for 4D Narrative AI at the University of Surrey: 4D vision, causal-temporal narrative and video understanding, so AI can explain what happened in a scene and why.">
+<meta name="keywords" content="4D Narrative AI, N4D Lab, 4D vision, 4D narrative, narrative AI, causal-temporal narrative, video understanding, 4D scene reconstruction, Armin Mustafa, University of Surrey, CVSSP">
+<meta name="author" content="Armin Mustafa">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://arminmustafa.github.io/">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Person", "@id": "https://arminmustafa.github.io/#armin", "name": "Armin Mustafa", "url": "https://arminmustafa.github.io/", "image": "https://arminmustafa.github.io/assets/armin.jpg", "jobTitle": "Associate Professor in Computer Vision and AI", "affiliation": [{"@type": "CollegeOrUniversity", "name": "University of Surrey", "department": {"@type": "Organization", "name": "Centre for Vision, Speech and Signal Processing (CVSSP)"}}, {"@type": "ResearchOrganization", "name": "Surrey Institute for People-Centred AI (PAI)", "parentOrganization": {"@type": "CollegeOrUniversity", "name": "University of Surrey"}}], "worksFor": {"@id": "https://arminmustafa.github.io/#n4d"}, "knowsAbout": ["4D Narrative AI", "4D vision", "3D/4D computer vision", "4D scene reconstruction", "causal-temporal narrative", "video understanding", "video captioning", "audio-visual understanding", "generative AI", "multimodal AI"], "sameAs": ["https://www.surrey.ac.uk/people/armin-mustafa", "https://scholar.google.co.uk/citations?user=0xOHqkMAAAAJ", "https://www.linkedin.com/in/armin-mustafa-8b7b886/", "https://www.turing.ac.uk/people/spotlights/armin-mustafa"]}, {"@type": "ResearchOrganization", "@id": "https://arminmustafa.github.io/#n4d", "name": "N4D Lab", "alternateName": ["4D Narrative AI Lab", "4D Narrative AI", "N4D"], "url": "https://arminmustafa.github.io/#lab", "description": "The N4D Lab studies 4D Narrative AI: machines that reconstruct dynamic scenes in 4D and explain the chain of events in them.", "founder": {"@id": "https://arminmustafa.github.io/#armin"}, "parentOrganization": {"@type": "CollegeOrUniversity", "name": "University of Surrey"}, "keywords": "4D narrative AI, 4D vision, causal-temporal narrative, video understanding, narrative understanding"}, {"@type": "WebSite", "url": "https://arminmustafa.github.io/", "name": "Armin Mustafa | 4D Narrative AI, N4D Lab", "inLanguage": "en-GB"}]}</script>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Armin Mustafa">
+<meta property="og:title" content="Armin Mustafa | 4D Narrative AI, N4D Lab">
+<meta property="og:description" content="Associate Professor in Computer Vision and AI at the University of Surrey and director of the N4D Lab: AI that understands what happened and why.">
+<meta property="og:url" content="https://arminmustafa.github.io/">
+<meta property="og:image" content="https://arminmustafa.github.io/assets/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400..600&family=Hanken+Grotesk:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/site.css">
 </head>
-<!-- The attributes of the body are thinking because the menu where you are while you scroll. The offset coincides with the padding-top of the body -->
-<body id="armin" data-spy="scroll" data-target="#menu" data-offset="70" background-color="#dedede">
-	<!-- MENU  -->
-	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-		<div class="container-fluid">
-			<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="#armin"><font size="+3">Armin Mustafa</font></a>
-				</div>
-				<div class="collapse navbar-collapse" id="menu">
-					<ul class="nav navbar-nav navbar-left">
-						<li><a href="#bio">Home</a></li>
-						<li><a href="#research">Research</a></li>
-						<li><a href="#cv">CV</a></li>
-						<li><a href="#contact">Contact</a></li>
-					</ul>
-					<div class="social-icons pull-right">
-						<a href="https://www.linkedin.com/in/armin-m-8b7b886/" target="_blank"><img class="nav-social linkedin" src="docs/files/linkedin.png" /></a>
-						<a href="https://twitter.com/arminmustafa?lang=en" target="_blank"><img class="nav-social twitter" src="docs/files/twitter.png" /></a>
-						<!--<a href="https://www.researchgate.net/profile/Armin_Mustafa" target="_blank"><img class="nav-social" src="docs/files/rg.png" /></a>-->
-						<a href="https://www.facebook.com/arminmustafa" target="_blank"><img class="nav-social" src="docs/files/fb.png" /></a>
-						<a href="https://www.youtube.com/channel/UCf0lFeVuJP59I4zHS0Tc1qw" target="_blank"><img class="nav-social" src="docs/files/yt.png" /></a>
-						<a href="https://scholar.google.co.uk/citations?user=0xOHqkMAAAAJ&hl=en" target="_blank"><img class="nav-social" src="docs/files/gscholar.png" /></a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</nav>
-	<!--<header>
-		<img src="docs/files/header.png" class="img-responsive" />
-	</header>
-	
-	<!-- The ID for each section are for captions that scroll to click on the menu, would become links -->
-	<section id="bio">
-		<div class="container-fluid">
-			<div class="cos col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12 col-xs-12" id="top">
-				<!-- <h3><font size="+2" color="#000080">Biography</font></h3> -->
-				<b><font size="+1"> PhD, FHEA, RAEng Research Fellow </font> <br> </b> <br>
-				<!--<small><i><a href="http://www.surrey.ac.uk/cvssp/">Centre for Vision, Speech and Signal Processing</a>,<br>
-				<a href ="http://www.surrey.ac.uk/"> University of Surrey </a>, UK </b></i></small> <br> -->
-				
-				 <!-- BIO IMAGE -->
-                <div id="bio_image">
-                    <img class="imgarmin" src="docs/files/armin2.jpg" hspace="20" width="100" height="150" />
-                </div>
-                
-                <!-- BIO TEXT -->
-                <div id="bio_text">
-                    <p>
-                        I am a <a target="_blank" href="https://www.raeng.org.uk/news/news-releases/2018/september/academy-awards-eight-new-research-fellowships"> Royal Academy of Engineering Research Fellow</a> in the <a target="_blank" href="https://www.surrey.ac.uk/centre-vision-speech-signal-processing">Centre for Vision, Speech and Signal Processing</a>, <a target="_blank" href="https://www.surrey.ac.uk/">University of Surrey</a> working in 4D Vision for perceptive machines. The emergence of machines that interact with their environment has led to an increasing demand for automatic visual understanding of real-world scenes. My research exploits Artificial Intelligence (AI) to better understand complex scenes so that machines can efficiently model and interpret real-world for a range of socially beneficial applications including autonomous systems, augmented reality and healthcare. 
-                    </p>
-                    <p>
-                        I am currently a <a target="_blank" href="https://www.surrey.ac.uk/people/armin-mustafa"> Lecturer in Computer Vision and AI </a> at CVSSP, University of Surrey, where I finished PhD in 'General dynamic scene reconstruction from multi-view videos' in 2016, supervised by <a href="https://www.surrey.ac.uk/people/adrian-hilton">Prof. Adrian Hilton</a>. I have previously worked at <a href="http://www.samsung.com/in/aboutsamsung/samsungelectronics/india/rnd/">Samsung Research Institute</a>, Bangalore, India for 3 years (2010 - 2013) in Computer Vision. In 2010 I received M.Tech. degree from the Indian Institute of Technology (IIT), Kanpur, India supervised by <a href="http://home.iitk.ac.in/~venkats/index.html">Prof. K.S. Venkatesh</a> in Human Computer Interaction. Please refer to <a href="#cv">CV</a> for more information.
-                    </p>
-                    <p>
-                        <b> Research interests: </b> 3D/4D Computer Vision, Scene Understanding, Generative AI, LLMs, Multi-view Performance Capture and Immersive Technologies.
-						<br>
-						<!-- My work was published in <a href="https://www.rsipvision.com/ECCV2016-Thursday/12/">Computer Vision News Magazine</a>.
-					</p>
-				</div>
-			
-				This is added to display videos in a row -- start 
-				<p><div class="contenidovid">
-				<div class="video-wrapper">
-					<iframe src="https://www.youtube.com/embed/mA60vkLXBJ0?&autoplay=1;&loop=1" frameborder="25" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				</div>
+<body>
 
-				<div class="video-wrapper">
-					<iframe src="https://www.youtube.com/embed/FFVTIY47NQ8?&autoplay=1;&loop=1" frameborder="25" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				</div>
+<header class="nav">
+  <div class="nav-in">
+    <a class="brand" href="#top" aria-label="Armin Mustafa, home">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="8" width="14" height="14" rx="3" fill="none" stroke="#0b0b0b" stroke-width="1.6" opacity=".35"/><rect x="5" y="5" width="14" height="14" rx="3" fill="none" stroke="#0b0b0b" stroke-width="1.6" opacity=".6"/><rect x="8" y="2" width="14" height="14" rx="3" fill="#0b0b0b"/></svg>
+      Armin Mustafa <span class="brand-sub">N4D Lab</span>
+    </a>
+    <nav class="links" id="links" aria-label="Main">
+      <a href="#lab">Lab</a>
+      <a href="#research">Research</a>
+      <a href="#publications">Publications</a>
+      <a href="#projects">Projects</a>
+      <a href="#impact">Impact</a>
+      <a href="#news">News</a>
+      <a href="#team">Team</a>
+      <a href="#services">Services</a>
+      <a class="btn btn-mint" href="#contact">Contact</a>
+    </nav>
+    <button class="menu" id="menu" aria-label="Open menu" aria-expanded="false" aria-controls="links"><span></span><span></span><span></span></button>
+  </div>
+</header>
 
-				<div class="video-wrapper">
-					<iframe src="https://www.youtube.com/embed/obnDpiDnScI?&autoplay=1;&loop=1" frameborder="25" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
-				</div></div></p>
-				<!-- This is added to display videos in a row // Remove &autoplay=1&loop=1 to remove autoplay from the videos-- end -->
-				<!-- horitzontal bar -->
-				<hr>
-			</div> 
-		</div> -->
-	</section>
+<main id="top">
 
-	<section id="research">
-		<div class="container-fluid">
-			<div class="cos col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
-				<h2><font size="+4" color="#000080">Research</font></h2>
-				<br/>
-				<h3><b><font size="+3">Projects</font></b></h3>
-				<table class="table-responsive">
-					<tr>
-						<td>
-							<a href="#">
-								<img class="imgres" src="docs/costar.png" />
-							</a>
-						</td>
-						<td>
-							<b>CoSTAR National Lab for R&D in Creative Technology</b><br>
-							<i> Arts and Humanities Research Council (AHRC) </i><br>
-							Oct 2023 - Sep 2033<br>
-							<!-- <span class="btn-group btn-group-xs">
-								<a class="btn btn-success" target="_blank" href="http://www.figmentproductions.co.uk/?portfolio=alive">Figment Productions</a>
-								<a class="btn btn-success" target="_blank" href="https://www.foundry.com/trends/research/alive-project">Foundry</a>
-								<a class="btn btn-success" target="_blank" href="https://youtu.be/SMyGsHG4Ung">Video</a>
-							</span> -->
-						</td>
-					</tr>
-				</table>
-				<br/>
-				<table class="table-responsive">
-					<tr>
-						<td>
-							<a href="#">
-								<img class="imgres" src="docs/ai4me.png" />
-							</a>
-						</td>
-						<td>
-							<b>AI4ME: AI for Personalised Media Experiences</b><br>
-							<i>Prosperity Partnership with BBC Research and Development </i><br>
-							Oct 2021 - Sep 2026<br>
-							<span class="btn-group btn-group-xs">
-								<a class="btn btn-success" target="_blank" href="https://ai4me.surrey.ac.uk">Website</a>
-							</span>
-						</td>
-					</tr>
-				</table>
-				<br/>
-				<table class="table-responsive">
-					<tr>
-						<td>
-							<a href="#">
-								<img class="imgres" src="docs/4D.png" />
-							</a>
-						</td>
-						<td>
-							<b>4D Vision for Perceptive Machines</b><br>
-							<i>Royal Academy of Engineering funded project </i><br>
-							Aug 2018 - Jul 2023<br>
-							<!-- <span class="btn-group btn-group-xs">
-								<a class="btn btn-success" target="_blank" href="http://www.figmentproductions.co.uk/?portfolio=alive">Figment Productions</a>
-								<a class="btn btn-success" target="_blank" href="https://www.foundry.com/trends/research/alive-project">Foundry</a>
-								<a class="btn btn-success" target="_blank" href="https://youtu.be/SMyGsHG4Ung">Video</a>
-							</span> -->
-						</td>
-					</tr>
-				</table>
-				<br/>
-				<table class="table-responsive">
-					<tr>
-						<td>
-							<a href="#">
-								<img class="imgres" src="docs/alive.png" />
-							</a>
-						</td>
-						<td>
-							<b>ALIVE: Live Action Light Fields for Immersive VR Experiences</b><br>
-							<i>Innovate UK project in collaboration with Figment Productions and Foundry</i><br>
-							October 2016 - December 2017<br>
-							<span class="btn-group btn-group-xs">
-								<a class="btn btn-success" target="_blank" href="http://www.figmentproductions.co.uk/?portfolio=alive">Figment Productions</a>
-								<a class="btn btn-success" target="_blank" href="https://www.foundry.com/trends/research/alive-project">Foundry</a>
-								<a class="btn btn-success" target="_blank" href="https://youtu.be/SMyGsHG4Ung">Video</a>
-							</span>
-						</td>
-					</tr>
-				</table>
-				<br/>
-				<table class="table-responsive">
-					<tr>
-						<td>
-							<a href="#">
-								<img class="imgres" src="docs/impart.png" />
-							</a>
-						</td>
-						<td>
-							<b>IMPART: Intelligent Management Platform for Advanced Real-Time media processes</b><br>
-							<i>EU FP7 project in collaboration with Filmlight, Double Negative, AUTH, UPF and BUT</i><br>
-							July 2013 - October 2015<br>
-							<span class="btn-group btn-group-xs">
-								<a class="btn btn-success" target="_blank" href="https://impart.upf.edu/#">Website</a>
-								<a class="btn btn-success" target="_blank" href="https://www.youtube.com/watch?time_continue=15&v=MmZsGNyGThk">Video</a>
-							</span>
-						</td>
-					</tr>
-				</table>
-				<br/>
-				<br/>
-				<br/>
-				<h3><b><font size="+3">Publications</font></b></h3>
-				<!-- create table-responsive tables responsive to the xapuza made me do it -->
-				<!-- <h4>2018</h4> -->
-				<table class="table-responsive">
-					<tr>
-						<td>
-							<a href="#">
-								<img class="imgres" src="docs/files/wacv24.png" />
-							</a>
-						</td>
-						<td>
-							<b>CAD - Contextual Multi-modal Alignment for Dynamic AVQA</b><br>
-							Asmar Nadeem, Adrian Hilton, Robert Dawes, Graham Thomas, and Armin Mustafa<br>
-							at <i>IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 2024</i><br>
-							<span class="btn-group btn-group-xs">
-								<a class="btn btn-success" target="_blank" https://arxiv.org/abs/2310.16754">Website</a>
-							</span>
-						</td>
-					</tr>
-				</table>
-				<br/>
-				<table class="table-responsive">
-					<tr>
-						<td>
-							<a href="#">
-								<img class="imgres" src="docs/files/aaai24.png" />
-							</a>
-						</td>
-						<td>
-							<b>DTF-AT: Decoupled Time-Frequency Audio Transformer for Event Classification</b><br>
-							Tony Alex, Sara Ahmed, Armin Mustafa, Muhammad Rana and Philip Jackson<br>
-							at <i>The 38th Annual AAAI Conference on Artificial Intelligence 2024</i><br>
-						</td>
-					</tr>
-				</table>
-				<br/>
-				<table class="table-responsive">
-					<tr>
-						<td>
-							<a href="#">
-								<img class="imgres" src="docs/misc/iccvw23.png" />
-							</a>
-						</td>
-						<td>
-							<b>UPGPT: Universal Diffusion Model for Person Image Generation, Editing and Pose Transfer</b><br>
-							Soon Cheong, Armin Mustafa, and Andrew Gilbert<br>
-							at <i>International Conference in Computer Vision Workshops (ICCVW) 2023</i><br>
-							<span class="btn-group btn-group-xs">
-								<a class="btn btn-success" target="_blank" href="https://arxiv.org/abs/2304.08870">Website</a>
-								<a class="btn btn-success" target="_blank" href="https://www.youtube.com/watch?v=2E8MSRlcN54&t=16s">Video</a>
-							</span>
-						</td>
-					</tr>
-				</table>
-				<br/>
-				<table class="table-responsive">
-					<tr>
-						<td>
-							<a href="#">
-								<img class="imgres" src="docs/misc/iccvw2023.png" />
-							</a>
-						</td>
-						<td>
-							<b>PAT: Position-Aware Transformer for Dense Multi-Label Action Detection</b><br>
-							Faegheh Sardari, Armin Mustafa, Philip JB Jackson, and Adrian Hilto<br>
-							at <i>International Conference in Computer Vision Workshops (ICCVW) 2023</I><br>
-							<span class="btn-group btn-group-xs">
-								<a class="btn btn-success" target="_blank" href="https://openaccess.thecvf.com/content/ICCV2023W/CVEU/html/Sardari_PAT_Position-Aware_Transformer_for_Dense_Multi-Label_Action_Detection_ICCVW_2023_paper.html">Website</a>
-							</span>
-						</td>
-					</tr>
-				</table>
-				<br/>
-				<table class="table-responsive">
-					<tr>
-						<td>
-							<a href="#">
-								<img class="imgres" src="docs/misc/cvprw23.png" />
-							</a>
-						</td>
-						<td>
-							<b>SEM-POS: Grammatically and Semantically Correct Video Captioning</b><br>
-							Asmar Nadeem, Adrian Hilton, Robert Dawes, Graham Thomas, and Armin Mustafa<br>
-							at <i>IEEE International Conference in Computer Vision & Pattern Recognition Workshops (CVPRW) 2023</i><br>
-							<span class="btn-group btn-group-xs">
-								<a class="btn btn-success" target="_blank" https://openaccess.thecvf.com/content/CVPR2023W/MULA/html/Nadeem_SEM-POS_Grammatically_and_Semantically_Correct_Video_Captioning_CVPRW_2023_paper.html">Website</a>
-							</span>
-						</td>
-					</tr>
-				</table>
-				<br/>
-				<table class="table-responsive">
-					<tr>
-						<td>
-							<a href="#">
-								<img class="imgres" src="docs/misc/bmvc2022.png" />
-							</a>
-						</td>
-						<td>
-							<b>KPE: Keypoint Pose Encoding for Transformer-based Image Generation</b><br>
-							Soon Cheong, Armin Mustafa, and Andrew Gilbert<br>
-							at <i>The 33rd British Machine Vision Conference(BMCV) 2022</i><br>
-							<span class="btn-group btn-group-xs">
-								<a class="btn btn-success" target="_blank" href="https://arxiv.org/abs/2203.04907">Website</a>
-								<a class="btn btn-success" target="_blank" href="https://www.youtube.com/watch?v=wYsnkabRl98&t=514s">Video</a>
-							</span>
-						</td>
-					</tr>
-				</table>
-				<br/>
-				<table class="table-responsive">
-					<tr>
-						<td>
-							<a href="#">
-								<img class="imgres" src="docs/misc/ijcv2022.png" />
-							</a>
-						</td>
-						<td>
-							<b>4D Temporally Coherent Multi-Person Semantic Reconstruction and Segmentation</b><br>
-							Armin Mustafa, Chris Russell, and Adrian Hilton<br>
-							at <i>International Journal in Computer Vision (IJCV) 2022</i><br>
-							<span class="btn-group btn-group-xs">
-								<a class="btn btn-success" target="_blank" href="https://link.springer.com/article/10.1007/s11263-022-01599-4">Website</a>
-							</span>
-						</td>
-					</tr>
-				</table>
-				<br/>
-				<table class="table-responsive">
-					<tr>
-						<td>
-							<a href="#">
-								<img class="imgres" src="docs/misc/cvpr2021.png" />
-							</a>
-						</td>
-						<td>
-							<b>Multi-person Implicit Reconstruction from a Single Image</b><br>
-							Armin Mustafa, Akin Caliskan, Lourdes Agapito, and Adrian Hilton<br>
-							at <i>IEEE International Conference in Computer Vision & Pattern Recognition (CVPR) 2021</i><br>
-							<span class="btn-group btn-group-xs">
-								<a class="btn btn-success" target="_blank" href="https://openaccess.thecvf.com/content/CVPR2021/html/Mustafa_Multi-Person_Implicit_Reconstruction_From_a_Single_Image_CVPR_2021_paper.html">Website</a>
-								<a class="btn btn-success" target="_blank" href="https://youtu.be/zElti-xPSQg">Video</a>
-							</span>
-						</td>
-					</tr>
-				</table>
-				<br/>
-				<table class="table-responsive">
-					<tr>
-						<td>
-							<a href="#">
-								<img class="imgres" src="docs/misc/silt.png" />
-							</a>
-						</td>
-						<td>
-							<b>SILT: Self-supervised Lighting Transfer Using Implicit Image Decomposition</b><br>
-							Nikolina Kubiak, Armin Mustafa, Graeme Phillipson, Stephen Jolly, and Simon Hadfield<br>
-							at <i> The 32nd British Machine Vision Conference(BMCV) 2021</i><br>
-							<span class="btn-group btn-group-xs">
-								<a class="btn btn-success" target="_blank" href="http://personal.ee.surrey.ac.uk/Personal/S.Hadfield/papers/Kubiak21SILT.pdf">Website</a>
-							</span>
-						</td>
-					</tr>
-				</table>
-				<br/>
-				<table class="table-responsive">
-					<tr>
-						<td>
-							<a href="#">
-								<img class="imgres" src="docs/misc/cvpr2021w.png" />
-							</a>
-						</td>
-						<td>
-							<b>Temporal Consistency Loss for High Resolution Textured and Clothed 3D Human Reconstruction From Monocular Video</b><br>
-							Akin Caliskan, Armin Mustafa, and Adrian Hilton<br>
-							at <i>IEEE International Conference in Computer Vision & Pattern Recognition Workshops (CVPRW) 2021</i><br>
-							<span class="btn-group btn-group-xs">
-								<a class="btn btn-success" target="_blank" href="https://openaccess.thecvf.com/content/CVPR2021W/DynaVis/html/Caliskan_Temporal_Consistency_Loss_for_High_Resolution_Textured_and_Clothed_3D_CVPRW_2021_paper.html">Website</a>
-							</span>
-						</td>
-					</tr>
-				</table>
-				<br/>
-				<table class="table-responsive">
-					<tr>
-						<td>
-							<a href="#">
-								<img class="imgres" src="docs/cvpr16/ijcv19.png" />
-							</a>
-						</td>
-						<td>
-							<b>Temporally Coherent General Dynamic Scene Reconstruction</b><br>
-							Armin Mustafa, Marco Volino, Hansung Kim, Jean-Yves Guillemaut, and Adrian Hilton<br>
-							at <i>International Journal in Computer Vision (IJCV) 2021</i><br>
-							<span class="btn-group btn-group-xs">
-								<a class="btn btn-success" target="_blank" href="https://link.springer.com/article/10.1007/s11263-020-01367-2">Website</a>
-								<a class="btn btn-success" target="_blank" href="https://www.youtube.com/watch?v=FFVTIY47NQ8&t=1s">Video</a>
-							</span>
-						</td>
-					</tr>
-				</table>
-				<br/>
-				<table class="table-responsive">
-					<tr>
-						<td>
-							<a href="#">
-								<img class="imgres" src="docs/misc/accv2020.png" />
-							</a>
-						</td>
-						<td>
-							<b>Multi-View Consistency Loss for Improved Single-Image 3D Reconstruction of Clothed People</b><br>
-							Akin Caliskan, Armin Mustafa, Evren Imre, and Adrian Hilton<br>
-							at <i>The Asian Conference on Computer Vision (ACCV), 2020</i><br>
-							<span class="btn-group btn-group-xs">
-								<a class="btn btn-success" target="_blank" href="https://openaccess.thecvf.com/content/ACCV2020/html/Caliskan_Multi-View_Consistency_Loss_for_Improved_Single-Image_3D_Reconstruction_of_Clothed_ACCV_2020_paper.html">Website</a>
-							</span>
-						</td>
-					</tr>
-				</table>
-				<br/>
-				<table class="table-responsive">
-					<tr>
-						<td>
-							<a href="#">
-								<img class="imgres" src="docs/files/icra20.jpg" />
-							</a>
-						</td>
-						<td>
-							<b>A* 3D Dataset: Towards Autonomous Driving in Challenging Environments</b><br>
-							Quang-Hieu Pham, Pierre Sevestre, Ramanpreet Singh Pahwa, Huijing Zhan, Chun Ho Pang, Yuda Chen, Armin Mustafa, Vijay Chandrasekhar, and Jie Lin<br>
-							at <i>IEEE International Conference on Robotics and Automation (ICRA) 2020</i><br>
-							<span class="btn-group btn-group-xs">
-								<a class="btn btn-success" target="_blank" href="https://github.com/I2RDL2/ASTAR-3D">Website</a>
-							</span>
-						</td>
-					</tr>
-				</table>
-				<br/>
-				<table class="table-responsive">
-					<tr>
-						<td>
-							<a href="#">
-								<img class="imgres" src="docs/files/realVr20.png" />
-							</a>
-						</td>
-						<td>
-							<b>Light Field Video for Immersive Content Production (Book Chapter)</b><br>
-							Marco Volino, Armin Mustafa, Jean-Yves Guillemaut and Adrian Hilton<br>
-							in <i>Real VR - Digitial Immersive Reality 2020</i><br>
-							<span class="btn-group btn-group-xs">
-								<a class="btn btn-success" target="_blank" href="https://www.amazon.com/dp/3030418154/ref=cm_sw_em_r_mt_dp_U_NpowEb1PKTZFZ">Website</a>
-							</span>
-						</td>
-					</tr>
-				</table>
-				<br/>
-				<table class="table-responsive">
-					<tr>
-						<td>
-							<a href="#">
-								<img class="imgres" src="docs/iccv19/iccv19.png" />
-							</a>
-						</td>
-						<td>
-							<b>U4D: Unsupervised 4D Dynamic Scene Understanding</b><br>
-							Armin Mustafa, Chris Russell, and Adrian Hilton<br>
-							at <i>International Conference on Computer Vision (ICCV) 2019</i><br>
-							<span class="btn-group btn-group-xs">
-								<a class="btn btn-success" target="_blank" href="http://cvssp.org/projects/4DMP/U4D/">Website</a>
-								<a class="btn btn-success" target="_blank" href="https://www.youtube.com/watch?v=mA60vkLXBJ0&t=30s">Video</a>
-							</span>
-						</td>
-					</tr>
-				</table>
-				<br/>
-				<table class="table-responsive">
-					<tr>
-						<td>
-							<a href="#">
-								<img class="imgres" src="docs/ijcv19/ijcv19.png" />
-							</a>
-						</td>
-						<td>
-							<b>Semantically Coherent 4D Scene Flow of Dynamic Scenes</b><br>
-							Armin Mustafa and Adrian Hilton<br>
-							at <i>International Journal in Computer Vision (IJCV) 2019</i><br>
-							<span class="btn-group btn-group-xs">
-								<a class="btn btn-success" target="_blank" href="http://cvssp.org/projects/4DMP/SC4D/">Website</a>
-							</span>
-						</td>
-					</tr>
-				</table>
-				<br/>
-				<table class="table-responsive">
-					<tr>
-						<td>
-							<a href="#">
-								<img class="imgres" src="docs/files/iccvw19.png" />
-							</a>
-						</td>
-						<td>
-							<b>Learning Dense Wide Baseline Stereo Matching for People</b><br>
-							Akin Caliskan, Armin Mustafa, Evren Imre, and Adrian Hilton<br>
-							at <i>International Conference on Computer Vision Workshop (ICCVW) 2019</i><br>
-							<span class="btn-group btn-group-xs">
-								<a class="btn btn-success" target="_blank" href="https://www.semanticscholar.org/paper/Learning-Dense-Wide-Baseline-Stereo-Matching-for-Caliskan-Mustafa/068a54a6a3d543db189ecc5a870e442eda3a8f72">Website</a>
-							</span>
-						</td>
-					</tr>
-				</table>
-				<br/>
-				<table class="table-responsive">
-					<tr>
-						<td>
-							<a href="#">
-								<img class="imgres" src="docs/files/3dv19.png" />
-							</a>
-						</td>
-						<td>
-							<b>Light Field Compression using Eigen Textures</b><br>
-							Marco Volino, Armin Mustafa, Jean-Yves Guillemaut and Adrian Hilton<br>
-							at <i>3D Vision (3DV) 2019</i><br>
-							<span class="btn-group btn-group-xs">
-								<a class="btn btn-success" target="_blank" href="https://cvssp.org/projects/lightfields/light-field-compression-using-eigen-textures/">Website</a>
-							</span>
-						</td>
-					</tr>
-				</table>
-				<br/>
-				<!--
-				<table class="table-responsive">
-					<tr>
-						<td>
-							<a href="#">
-								<img class="imgres" src="docs/hlc19/HLC_AI.png" />
-							</a>
-						</td>
-						<td>
-							<b>Understanding real-world scenes for human-like machine perception</b><br>
-							Armin Mustafa and Adrian Hilton<br>
-							at <i><a href="http://mi21-hlc.doc.ic.ac.uk">Human Like Computing Machine-Intelligence Workshop (MI21-HLC)</a> 2019</i><br>
-							<span class="btn-group btn-group-xs">
-								<a class="btn btn-success" target="_blank" href="docs/hlc19/ArminHLC2019.pdf">PDF</a>
-							</span>
-						</td>
-					</tr>
-				</table>
-				<br/> -->
-				<!-- <table class="table-responsive">
-					<tr>
-						<td>
-							<a href="#">
-								<img class="imgres" src="docs/files/cvmp19.png" />
-							</a>
-						</td>
-						<td>
-							<b>Learning Human Reconstruction from Synthetic Dataset (Short paper)</b><br>
-							Akin Caliskan, Armin Mustafa, Evren Imre, and Adrian Hilton<br>
-							at <i><a href="https://www.cvmp-conference.org/2019/">The 16th ACM SIGGRAPH European Conference on Visual Media Production (CVMP)</a> 2019</i><br>
-							<span class="btn-group btn-group-xs">
-								<a class="btn btn-success" target="_blank" href="https://www.cvmp-conference.org/files/2019/short/51.pdf">Website</a>
-							</span>
-						</td>
-					</tr>
-				</table>
-				<br/> -->
-				<table class="table-responsive">
-					<tr>
-						<td>
-							<a href="#">
-								<img class="imgres" src="docs/tip18/tip18.png" />
-							</a>
-						</td>
-						<td>
-							<b>MSFD: Multi-scale segmentation based feature detection for wide-baseline scene reconstruction</b><br>
-							Armin Mustafa,  Hansung Kim, and Adrian Hilton<br>
-							at <i>IEEE Transactions in Image Processing (TIP) 2018</i><br>
-							<span class="btn-group btn-group-xs">
-								<a class="btn btn-success" target="_blank" href="http://cvssp.org/projects/4DMP/MSFD/">Website</a>
-							</span>
-						</td>
-					</tr>
-				</table>
-				<br/>
-				<!-- <h4>2017</h4> -->
-				<table class="table-responsive">
-					<tr>
-						<td>
-							<a href="#">
-								<img class="imgres" src="docs/3dv17/Armin3DV2017.png" />
-							</a>
-						</td>
-						<td>
-							<b>4D Temporally Coherent Dynamic Light-field Video (Spotlight)</b><br>
-							Armin Mustafa, Marco Volino, Jean-Yves Guillemaut and Adrian Hilton<br>
-							at <i>3D Vision (3DV) 2017</i><br>
-							<span class="btn-group btn-group-xs">
-								<a class="btn btn-success" target="_blank" href="http://cvssp.org/projects/4DMP/4DLFV/">Website</a>
-								<a class="btn btn-success" target="_blank" href="https://youtu.be/SMyGsHG4Ung">Video</a>
-								<!--<a class="btn btn-success" target="_blank" href="docs/cvpr17/cvpr17.bib">bib</a>-->
-							</span>
-						</td>
-					</tr>
-				</table>
-				<br/>
-				<table class="table-responsive">
-					<tr>
-						<td>
-							<a href="#">
-								<img class="imgres" src="docs/cvpr17/ArminCVPR2017.png" />
-							</a>
-						</td>
-						<td>
-							<b>Semantically Coherent Co-segmentation and Reconstruction of Dynamic Scenes</b><br>
-							Armin Mustafa and Adrian Hilton<br>
-							at <i>IEEE International Conference in Computer Vision & Pattern Recognition (CVPR) 2017</i><br>
-							<!-- btn-group is to create groups of buttons. The size of the class brand btn-group in this case, it does not specify the specific button -->
-							<span class="btn-group btn-group-xs">
-								<a class="btn btn-success" target="_blank" href="http://cvssp.org/projects/4DMP/SemRecon/">Website</a>
-								<a class="btn btn-success" target="_blank" href="https://youtu.be/obnDpiDnScI">Video</a>
-							</span>
-						</td>
-					</tr>
-				</table>
-				<br/>
-				<!-- <h4>2016</h4> -->
-				<table class="table-responsive">
-					<tr>
-						<td>
-							<a href="#">
-								<img class="imgres" src="docs/cvpr16/ArminCVPR2016.png" />
-							</a>
-						</td>
-						<td>
-							<b>Temporally Coherent 4D Reconstruction of Complex Dynamic Scenes (Oral)</b><br>
-							Armin Mustafa, Hansung Kim, Jean-Yves Guillemaut and Adrian Hilton<br>
-							at <i>IEEE International Conference in Computer Vision & Pattern Recognition (CVPR) 2016</i><br>
-							<span class="btn-group btn-group-xs">
-								<a class="btn btn-success" target="_blank" href="http://cvssp.org/projects/4DMP/4DRecon/">Website</a>
-								<a class="btn btn-success" target="_blank" href="https://youtu.be/bm_P13_-DsQ">Video</a>
-							</span>
-						</td>
-					</tr>
-				</table>
-				<br/>
-				<table class="table-responsive">
-					<tr>
-						<td>
-							<a href="#">
-								<img class="imgres" src="docs/eccv16/ArminECCV2016.png" />
-							</a>
-						</td>
-						<td>
-							<b>4D Match Trees for Non-rigid Surface Alignment</b><br>
-							Armin Mustafa, Hansung Kim and Adrian Hilton<br>
-							at <i>The 14th European Conference on Computer Vision (ECCV) 2016</i><br>
-							<span class="btn-group btn-group-xs">
-								<a class="btn btn-success" target="_blank" href="http://cvssp.org/projects/4DMP/4Dnonseq/">Website</a>
-								<a class="btn btn-success" target="_blank" href="https://youtu.be/GPu-UKppCfk">Video</a>
-							</span>
-						</td>
-					</tr>
-				</table>
-				<br/>
-				<!-- <h4>2015</h4> -->
-				<table class="table-responsive">
-					<tr>
-						<td>
-							<a href="#">
-								<img class="imgres" src="docs/iccv15/ArminICCV2015.png" />
-							</a>
-						</td>
-						<td>
-							<b>General Dynamic Scene Reconstruction from Multiple View Video</b><br>
-							Armin Mustafa, Hansung Kim, Jean-Yves Guillemaut and Adrian Hilton<br>
-							at <i>International Conference on Computer Vision (ICCV) 2015</i><br>
-							<span class="btn-group btn-group-xs">
-								<a class="btn btn-success" target="_blank" href="http://cvssp.org/projects/4DMP/DyRecon/">Website</a>
-								<a class="btn btn-success" target="_blank" href="https://youtu.be/uIDeJ1_MvaE">Video</a>
-							</span>
-						</td>
-					</tr>
-				</table>
-				<br/>
-				<table class="table-responsive">
-					<tr>
-						<td>
-							<a href="#">
-								<img class="imgres" src="docs/3dv15/Armin3DV2015.png" />
-							</a>
-						</td>
-						<td>
-							<b>Segmentation based Features for Wide-baseline Multi-view Reconstruction (Oral)</b><br>
-							Armin Mustafa, Hansung Kim, Evren Imre and Adrian Hilton<br>
-							at <i>3D Vision (3DV) 2015</i><br>
-							<span class="btn-group btn-group-xs">
-								<a class="btn btn-success" target="_blank" href="http://cvssp.org/projects/4DMP/SFD/">Website</a>
-								<a class="btn btn-success" target="_blank" href="https://youtu.be/m3NThvKpR5w">Video</a>
-							</span>
-						</td>
-					</tr>
-				</table>
-				<br/>
-				<!-- <h4>2014</h4> 
-				<table class="table-responsive">
-					<tr>
-						<td>
-							<a href="#">
-								<img class="imgres" src="docs/cvmp14/ArminCVMP2014.png" />
-							</a>
-						</td>
-						<td>
-							<b>Initial Disparity Estimation using Sparse Matching for Wide-baseline Stereo (Short paper)</b><br>
-							Armin Mustafa, Hansung Kim, Evren Imre and Adrian Hilton<br>
-							at <i>The 11th European Conference in Visual Media Production (CVMP) 2015</i><br>
-							<span class="btn-group btn-group-xs">
-								<a class="btn btn-success" target="_blank" href="docs/cvmp14/ArminCVMP2014.pdf">PDF</a>
-							</span>
-						</td>
-					</tr>
-				</table>
-				<br/>-->
-				<!-- <h4>2012</h4> -->
-				<table class="table-responsive">
-					<tr>
-						<td>
-							<a href="#">
-								<img class="imgres" src="docs/masters/book.png" />
-							</a>
-						</td>
-						<td>
-							<b>Multi Finger Gesture Recognition and Classification in Dynamic Environment under Varying Illumination upon Arbitrary Background (Book chapter)</b><br>
-							Armin Mustafa and K.S. Venkatesh<br>
-							in Speech, Image, and Language Processing for Human Computer Interaction: Multi-Modal Advancements 2012</i><br>
-							<span class="btn-group btn-group-xs">
-								<a class="btn btn-success" target="_blank" href="http://www.igi-global.com/book/speech-image-language-processing-human/60784">Website</a>								
-							</span>
-						</td>
-					</tr>
-				</table>
-				<br/>
-				<!-- <h4>2011</h4> -->
-				<table class="table-responsive">
-					<tr>
-						<td>
-							<a href="#">
-								<img class="imgres" src="docs/masters/paper.png" />
-							</a>
-						</td>
-						<td>
-							<b>Background Reflectance Modeling for Robust Finger Gesture Detection in Highly Dynamic Illumination</b><br>
-							Armin Mustafa and K.S. Venkatesh<br>
-							at <i>In International Conference on Hybrid Information Technology, volume 6935 of Lecture Notes in Computer Science 2011</i><br>
-							<span class="btn-group btn-group-xs">
-								<a class="btn btn-success" target="_blank" href="https://www.researchgate.net/publication/221416385_Background_Reflectance_Modeling_for_Robust_Finger_Gesture_Detection_in_Highly_Dynamic_Illumination">Website</a>								
-							</span>
-						</td>
-					</tr>
-				</table>
-				<br/>
-				<h4><b><font size="+1">Patents</font></b></h4>
-				<!-- <h4>2013</h4> -->
-				<table class="table-responsive">
-					<tr>
-						<td>
-							<a href="#">
-								<img class="imgres" src="docs/masters/samsung.png" />
-							</a>
-						</td>
-						<td>
-							<b>Method and apparatus for converting 2d video to 3d video</b><br>
-							U.S. and Korean Patent 2013</i><br>
-							<span class="btn-group btn-group-xs">
-								<a class="btn btn-success" target="_blank" href="https://www.google.com/patents/US20140210944">Website</a>
-							</span>
-						</td>
-					</tr>
-				</table>
-				<br/>
-				<!-- <h4>2010</h4> -->
-				<table class="table-responsive">
-					<tr>
-						<td>
-							<a href="#">
-								<img class="imgres" src="docs/masters/patent.png" />
-							</a>
-						</td>
-						<td>
-							<b>A Method and System for Human Gesture based on Visual Contour Analysis</b><br>
-							Armin Mustafa and K.S. Venkatesh<br>
-							Indian Patent 2010</i><br>
-							<span class="btn-group btn-group-xs">
-								<a class="btn btn-success" target="_blank" href="http://www.iitk.ac.in/siic/d/content/method-and-system-human-gesture-based-visual-contour-analysis">Website</a>
-							</span>
-						</td>
-					</tr>
-				</table>
-				<br/>
-				<h4><b><font size="+2">Service</font></b></h4>
-				<!-- <h4>2019</h4> -->
-				<table class="table-responsive">
-					<tr>
-						<td>
-							<a href="#">
-								<img class="imgres" src="docs/files/bmvc23.png" />
-							</a>
-						</td>
-						<td>
-							<a href="https://bmvc2023.org"> British Machine Vision Conference (BMVC 2023) </a>, Aberdeen, UK <br>
-							<b>Workshop Chair</b>
-						</td>
-					</tr>
-				</table>	
-				<br/>
-				<table class="table-responsive">
-					<tr>
-						<td>
-							<a href="#">
-								<img class="imgres" src="docs/files/cvmp23.png" />
-							</a>
-						</td>
-						<td>
-							<a href="https://www.cvmp-conference.org/2023/"> The 20th European Conference on Visual Media Production (CVMP 2023) </a>, London, UK <br>
-							<b>Conference Co-Chair</b>
-						</td>
-					</tr>
-				</table>	
-				<br/>
-				<table class="table-responsive">
-					<tr>
-						<td>
-							<a href="#">
-								<img class="imgres" src="docs/misc/dynavis2021.png" />
-							</a>
-						</td>
-						<td>
-							<a href="https://dynavis.github.io/2023/"> DynaVis - The Fourth International Workshop on Dynamic Scene Reconstruction @ CVPR 2023 </a> Vancouver, Canada <br>
-							<b>Organiser</b> <br>
-							Organisers: <a href="http://arminmustafa.github.io">Armin Mustafa</a>, <a href="https://www.surrey.ac.uk/people/marco-volino">Marco Volino</a>, <a href="https://dancasas.github.io/">Dan Casas</a>, <a href="https://researchportal.bath.ac.uk/en/persons/christian-richardt">Christian Richardt</a>  and <a href="https://www.surrey.ac.uk/people/adrian-hilton">Adrian Hilton</a> <br>
-						</td>
-					</tr>
-				</table>	
-				<br/>
-				<table class="table-responsive">
-					<tr>
-						<td>
-							<a href="#">
-								<img class="imgres" src="docs/files/bmvc22.png" />
-							</a>
-						</td>
-						<td>
-							<a href="https://bmvc2022.org"> British Machine Vision Conference (BMVC 2022) </a>, London, UK <br>
-							<b>Programme and Workshop Chair</b>
-						</td>
-					</tr>
-				</table>	
-				<br/>
-				<table class="table-responsive">
-					<tr>
-						<td>
-							<a href="#">
-								<img class="imgres" src="docs/files/cvmp22.png" />
-							</a>
-						</td>
-						<td>
-							<a href="https://www.cvmp-conference.org/2022/"> The 19th European Conference on Visual Media Production (CVMP 2022) </a>, London, UK <br>
-							<b>Full Papers Chair</b>
-						</td>
-					</tr>
-				</table>	
-				<br/>
-				<table class="table-responsive">
-					<tr>
-						<td>
-							<a href="#">
-								<img class="imgres" src="docs/misc/3dv2021.png" />
-							</a>
-						</td>
-						<td>
-							<a href="https://3dv2021.surrey.ac.uk/"> International Conference on 3D Vision (3DV 2021) </a>, Online <br>
-							<b>Publication Chair</b>
-						</td>
-					</tr>
-				</table>	
-				<br/>
-				<table class="table-responsive">
-					<tr>
-						<td>
-							<a href="#">
-								<img class="imgres" src="docs/misc/cvmp2021.png" />
-							</a>
-						</td>
-						<td>
-							<a href="https://www.cvmp-conference.org/2021/"> The 18th European Conference on Visual Media Production (CVMP 2021) </a>, London, UK <br>
-							<b>Short Papers Chair</b>
-						</td>
-					</tr>
-				</table>	
-				<br/>
-				<table class="table-responsive">
-					<tr>
-						<td>
-							<a href="#">
-								<img class="imgres" src="docs/misc/dynavis2021.png" />
-							</a>
-						</td>
-						<td>
-							<a href="https://dynavis.github.io/2021/"> DynaVis - The Third International Workshop on Dynamic Scene Reconstruction @ CVPR 2021 </a>, Online <br>
-							<b>Organiser</b> <br>
-							Organisers: <a href="http://arminmustafa.github.io">Armin Mustafa</a>, <a href="https://www.surrey.ac.uk/people/marco-volino">Marco Volino</a>, <a href="https://web.stanford.edu/~zollhoef/">Michael Zollhofer</a>, <a href="https://dancasas.github.io/">Dan Casas</a>, <a href="https://researchportal.bath.ac.uk/en/persons/christian-richardt">Christian Richardt</a>  and <a href="https://www.surrey.ac.uk/people/adrian-hilton">Adrian Hilton</a> <br>
-						</td>
-					</tr>
-				</table>	
-				<br/>
-				<table class="table-responsive">
-					<tr>
-						<td>
-							<a href="#">
-								<img class="imgres" src="docs/misc/3dv2020.png" />
-							</a>
-						</td>
-						<td>
-							<a href="http://3dv2020.dgcv.nii.ac.jp/"> International Conference on 3D Vision (3DV 2020) </a>, Online <br>
-							<b>Area Chair</b>
-						</td>
-					</tr>
-				</table>	
-				<br/>
-				<table class="table-responsive">
-					<tr>
-						<td>
-							<a href="#">
-								<img class="imgres" src="docs/misc/cvmp2020.png" />
-							</a>
-						</td>
-						<td>
-							<a href="https://www.cvmp-conference.org/2020/"> The 17th European Conference on Visual Media Production (CVMP 2020) </a>, Online <br>
-							<b>Public Relations Chair</b>
-						</td>
-					</tr>
-				</table>	
-				<br/>
-				<table class="table-responsive">
-					<tr>
-						<td>
-							<a href="#">
-								<img class="imgres" src="docs/misc/dynavis20.jpg" />
-							</a>
-						</td>
-						<td>
-							<a href="https://dynavis.github.io/2020/"> DynaVis - The Second International Workshop on Dynamic Scene Reconstruction @ CVPR 2020 </a>, Seattle, Washington <br>
-							<b>Organiser</b> <br>
-							Organisers: <a href="http://arminmustafa.github.io">Armin Mustafa</a>, <a href="https://www.surrey.ac.uk/people/marco-volino">Marco Volino</a>, <a href="https://web.stanford.edu/~zollhoef/">Michael Zollhofer</a>, <a href="https://dancasas.github.io/">Dan Casas</a>, <a href="https://researchportal.bath.ac.uk/en/persons/christian-richardt">Christian Richardt</a>  and <a href="https://www.surrey.ac.uk/people/adrian-hilton">Adrian Hilton</a> <br>
-						</td>
-					</tr>
-				</table>	
-				<br/>		
-				<table class="table-responsive">
-					<tr>
-						<td>
-							<a href="#">
-								<img class="imgres" src="docs/misc/dynavis.jpg" />
-							</a>
-						</td>
-						<td>
-							<a href="https://dynavis.github.io/2019/"> DynaVis - The First International Workshop on Dynamic Scene Reconstruction @ CVPR 2019 </a>, Long Beach, California <br>
-							<b>Organiser</b> <br>
-							Organisers: <a href="http://arminmustafa.github.io">Armin Mustafa</a>, <a href="https://www.surrey.ac.uk/people/marco-volino">Marco Volino</a>, <a href="https://web.stanford.edu/~zollhoef/">Michael Zollhofer</a>, <a href="https://dancasas.github.io/">Dan Casas</a> and <a href="https://www.surrey.ac.uk/people/adrian-hilton">Adrian Hilton</a> <br>
-						</td>
-					</tr>
-				</table>	
-				<br/>			
-				<!-- <h4>2017</h4> -->
-				<table class="table-responsive">
-					<tr>
-						<td>
-							<a href="#">
-								<img class="imgres" src="docs/misc/bmva.jpg" />
-							</a>
-						</td>
-						<td>
-							<a href="http://www.bmva.org/_media/meetings:BMVA3DSceneReport.pdf"> BMVA symposium on Dynamic Scene Reconstruction </a>, London <br>
-							<b>Organiser</b> <br>
-							Organisers: <a href="https://www.surrey.ac.uk/people/jean-yves-guillemaut" target="_blank">Jean-Yves Guillemaut</a>, <a href="http://arminmustafa.github.io">Armin Mustafa</a> and <a href="https://www.surrey.ac.uk/people/marco-volino">Marco Volino</a><br>
-						</td>
-					</tr>
-				</table>
-				<br/>
-				<table class="table-responsive">
-					<tr>
-						<td>
-							<b> <font size="+0.5"> Reviewer </b><br/>
-							<font size="-1">
-							IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) <br/>
-							IEEE/CVF International Conference on Computer Vision (ICCV) <br/>
-							European Conference on Computer Vision (ECCV) <br/>
-							British Machine Vision Conference (BMVC) <br/>
-							International Conference on 3D Vision (3DV) <br/>
-							EUROGRAPHICS <br/>
-							IEEE Transactions in Image Processing (IEEE TIP) <br/>
-							IEEE Transactions in Multimedia <br/>
-							European Conference for Visual Media Production (CVMP) <br/>
-							Computer Vision and Image Understanding (CVIU) <br/>
-							IET Computer Vision  <br/>
-							3D Reconstruction in the Wild (3DRW) <br/>
-						</td>
-					</tr>
-				</table>
-				<br/>				
-				<h4><b><font size="+1">Talks</font></b></h4>
-				<table class="table-responsive">
-					<tr>
-						<td>
-						<img class="img-rounded" src="docs/misc/birmingham.png" alt="" width="40" height="40"/>
-						</td>
-						<td>
-							<b> &nbsp 4D Vision for Scene Understanding, 28 Feb 2020 </b></font> <br/>
-							&nbsp at University of Birmingham, UK <br/> <br/>
-						</td>
-					</tr>
-					<tr>
-						<td>
-						<img class="img-rounded" src="docs/misc/qmul.png" alt="" width="40" height="40"/>
-						</td>
-						<td>
-							<b> &nbsp Unsupervised 4D Dynamic Scene Understanding, 23 Jan 2020 </b></font> <br/>
-							&nbsp at Queen Mary University London, UK <br/> <br/>
-						</td>
-					</tr>
-					<tr>
-						<td>
-						<img class="img-rounded" src="docs/misc/iccv2019.png" alt="" width="40" height="40"/>
-						</td>
-						<td>
-							<b> &nbsp Unsupervised 4D Dynamic Scene Understanding, 28 Oct 2019 </b></font> <br/>
-							&nbsp at Moving Cameras Workshop, ICCV, Seoul, South Korea <br/> <br/>
-						</td>
-					</tr>
-					<tr>
-						<td>
-						<img class="img-rounded" src="docs/misc/bmvalogo.png" alt="" width="40" height="40"/>
-						</td>
-						<td>
-							<b> &nbsp Semantically Coherent 4D Scene Flow of Dynamic Scenes, 19 Jul 2019 </b></font> <br/>
-							&nbsp at BMVA Meeting on Geometry and Deep Learning, London, UK <br/> <br/>
-						</td>
-					</tr>
-				    <tr>
-						<td>
-						<img class="img-rounded" src="docs/misc/hlc.png" alt="" width="40" height="40"/>
-						</td>
-						<td>
-							<b> &nbsp Understanding real-world scenes for human-like machine perception, 03 Jul 2019 </b></font> <br/>
-							&nbsp at EPSRC Network+ Human-Like Computing Machine Intelligence Workshop (MI21-HLC), Windsor, UK <br/> <br/>
-						</td>
-					</tr>
-					<tr>
-						<td>
-						<img class="img-rounded" src="docs/misc/astar.png" alt="" width="40" height="40"/>
-						</td>
-						<td>
-							<b> &nbsp 4D Vision for Dynamic Scene Understanding, 24 May 2019 </b></font> <br/>
-							&nbsp at Agency for Science, Technology and Research (A*STAR), Singapore <br/> <br/>
-						</td>
-					</tr>
-					<tr>
-						<td>
-						<img class="img-rounded" src="docs/misc/aslla.png" alt="" width="40" height="40"/>
-						</td>
-						<td>
-							<b> &nbsp 4D Vision for Dynamic Scene Understanding, 30 November 2018 </b></font> <br/>
-							&nbsp at Sixth ASLLA Symposium on Human Understanding through AI: Days of Future Present, by KIST, South Korea<br/> <br/>
-						</td>
-					</tr>
-					<tr>
-						<td>
-						<img class="img-rounded" src="docs/misc/portsmouth.png" alt="" width="40" height="40"/>
-						</td>
-						<td>
-							<b> &nbsp General Dynamic Scene Understanding, 12 November 2018 </b></font> <br/>
-							&nbsp at University of Portsmouth, UK<br/> <br/>
-						</td>
-					</tr>
-					<tr>
-						<td>
-						<img class="img-rounded" src="docs/misc/digital.jpg" alt="" width="40" height="40"/>
-						</td>
-						<td>
-							<b> &nbsp 4D Vision for Creative Industries, 07 November 2018 </b></font> <br/>
-							&nbsp at How can the creative industries use AI?, by Machine Intelligence Garage, Digital Catapult, UK<br/> <br/>
-						</td>
-					</tr>
-					<tr>
-						<td>
-						<img class="img-rounded" src="docs/misc/purdue.jpg" alt="" width="40" height="40"/>
-						</td>
-						<td>
-							<b> &nbsp Semantic Reconstruction of Dynamic Scenes, 26 February 2018 </b></font> <br/>
-							&nbsp at C Design Lab, Purdue University, Indiana, US <br/> <br/>
-						</td>
-					</tr>
-					<tr>
-						<td>
-						<img class="img-rounded" src="docs/misc/ms.jpg" alt="" width="40" height="40"/>
-						</td>
-						<td>
-							<b> &nbsp General Dynamic Scene Reconstruction, 04 October 2017 </b></font> <br/>
-							&nbsp at Microsoft Research, Cambridge, UK<br/> <br/>
-						</td>
-					</tr>
-					<tr>
-						<td>
-						<img class="img-rounded" src="docs/misc/adobe.jpg" alt="" width="40" height="40"/>
-						</td>
-						<td>
-							<b> &nbsp General Dynamic Scene Reconstruction, 22 August 2017 </b></font> <br/>
-							&nbsp at Adobe Research, San Jose, US<br/> <br/>
-						</td>
-					</tr>
-					<tr>
-						<td>
-						<img class="img-rounded" src="docs/misc/bmvalogo.png" alt="" width="40" height="40"/>
-						</td>
-						<td>
-							<b> &nbsp Semantic Scene Reconstruction, 21 June 2017 </b></font> <br/>
-							&nbsp at BMVA Meeting on Dynamic Scene Reconstruction, London, UK<br/> <br/>
-						</td>
-					</tr>
-					<tr>
-						<td>
-						<img class="img-rounded" src="docs/misc/rankprize.jpg" alt="" width="40" height="40"/>
-						</td>
-						<td>
-							<b> &nbsp General 4D Scene Reconstruction, 25 April 2016 </b></font> <br/>
-							&nbsp at Symposium on Computer Vision and Video Effects Generation, by Rank Prize Funds, UK<br/>
-						</td>
-					</tr>
-				</table>
-				<br/>		
-				<!-- horitzontal tab -->
-				<hr>
-			</div>
-		</div>
-	</section>
-	<section id="cv">
-		<div class="container-fluid">
-			<div class="cos col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-8 col-xs-8">
-				<h3><font size="+2" color="#000080">CV</font></h3>
-				<h4><b><font size="+1">Experience</font></b></h4>
-				<table class="table-responsive">
-					<tr>
-						<td>
-						<img class="img-rounded" src="docs/files/raeng.jpg" alt="" width="40" height="40"/>
-						</td>
-						<td>
-							<font size="+0.25"> &nbsp Royal Academy of Engineering Research Fellow: Aug' 2018 - Present</font> <br style="line-height: 8px" />
-							<b> &nbsp Centre for Vision, Speech and Signal Processing, University of Surrey, UK </b><br/>
-						</td>
-					</tr>
-				</table>
-				<br/>
-				<table class="table-responsive">
-					<tr>
-						<td>
-						<img class="img-rounded" src="docs/files/surrey.png" alt="" width="40" height="40"/>
-						</td>
-						<td>
-							<font size="+0.25"> &nbsp Lecturer in Computer Vision and Artificial Intelligence: Oct' 2021 - Present</font> <br style="line-height: 8px" />
-							<b>&nbsp Centre for Vision, Speech and Signal Processing, University of Surrey, UK </b><br/>
-						</td>
-					</tr>
-				</table>
-				<br/>
-				<table class="table-responsive">
-					<tr>
-						<td>
-						<img class="img-rounded" src="docs/misc/ucl.png" alt="" width="40" height="40"/>
-						</td>
-						<td>
-							<font size="+0.25"> &nbsp Visiting Researcher: Jan' 2020 - Nov' 2020, <b>Host</b>: <a href="http://www0.cs.ucl.ac.uk/staff/L.Agapito/"> Prof. Lourdes Agapito </a> </font> <br style="line-height: 8px" />
-							<b> &nbsp University College London (UCL), UK </b><br/>
-						</td>
-					</tr>
-				</table>
-				<br/>
-				<table class="table-responsive">
-					<tr>
-						<td>
-						<img class="img-rounded" src="docs/misc/astar.png" alt="" width="40" height="40"/>
-						</td>
-						<td>
-							<font size="+0.25"> &nbsp Visiting Researcher: May' 2019 - Oct' 2019, <b>Host</b>: <a href="https://vijaychan.github.io/"> Dr. Vijay Chandrasekhar </a> </font> <br style="line-height: 8px" />
-							<b> &nbsp Agency for Science, Technology and Research (A*STAR), Singapore </b><br/>
-						</td>
-					</tr>
-				</table>
-				<br/>
-				<table class="table-responsive">
-					<tr>
-						<td>
-						<img class="img-rounded" src="docs/files/surrey.png" alt="" width="40" height="40"/>
-						</td>
-						<td>
-							<font size="+0.25"> &nbsp Senior Research Fellow: Aug' 2018 - Sep' 2021</font> <br style="line-height: 8px" />
-							<b>&nbsp Centre for Vision, Speech and Signal Processing, University of Surrey, UK </b><br/>
-						</td>
-					</tr>
-				</table>
-				<br/>
-				<table class="table-responsive">
-					<tr>
-						<td>
-						<img class="img-rounded" src="docs/files/surrey.png" alt="" width="40" height="40"/>
-						</td>
-						<td>
-							<font size="+0.25"> &nbsp Research Fellow: Oct' 2016 - Jul' 2018</font> <br style="line-height: 8px" />
-							<b>&nbsp Centre for Vision, Speech and Signal Processing, University of Surrey, UK </b><br/>
-						</td>
-					</tr>
-				</table>
-				<br/>
-				<table class="table-responsive">
-					<tr>
-						<td>
-						<img class="img-rounded" src="docs/files/samsung.jpg" alt="" width="40" height="40"/>
-						</td>
-						<td>
-							<font size="+0.25">&nbsp Lead Engineer: Apr’ 2012 – May’ 2013</font> <br style="line-height: 8px" />
-							<b> &nbsp Samsung Research Institute India, Bangalore, India</b><br/>
-						</td>
-					</tr>
-				</table>
-				<br/>
-				<table class="table-responsive">
-					<tr>
-						<td>
-						<img class="img-rounded" src="docs/files/samsung.jpg" alt="" width="40" height="40"/>
-						</td>
-						<td>
-							<font size="+0.25">&nbsp Senior Software Engineer: Aug’ 2010 – Mar' 2012</font> <br style="line-height: 8px" />
-							<b>&nbsp Samsung Research Institute India, Bangalore, India</b><br/>
-						</td>
-					</tr>
-				</table>
-				<br/>
-				<h4><b><font size="+1">Education and Certificates</font></b></h4>
-				<table class="table-responsive">
-					<tr>
-						<td>
-							<img class="img-rounded" src="docs/files/hea.jpg" alt="" width="40" height="40"/>
-						</td>
-						<td>
-							<font size="+0.25">&nbsp Graduate Certificate of Learning and Teaching: Jan' 2018 – Sep’ 2019</font> <br style="line-height: 8px" />
-							<b>&nbsp Higher Education Academy, University of Surrey, UK </b><br/>
-						</td>
-					</tr>
-				</table>
-				<br/>
-				<table class="table-responsive">
-					<tr>
-						<td>
-							<img class="img-rounded" src="docs/files/oxfor.png" alt="" width="40" height="40"/>
-						</td>
-						<td>
-							<font size="+0.25">&nbsp Oxford Artificial Intelligence Programme: May' 2019 – Jul’ 2019</font> <br style="line-height: 8px" />
-							<b>&nbsp Said Business School, University of Oxford, UK </b><br/>
-						</td>
-					</tr>
-				</table>
-				<br/>
-				<table class="table-responsive">
-					<tr>
-						<td>
-							<a href="docs/Thesis_ArminMustafa.pdf">
-								<img class="img-rounded" src="docs/files/surrey.png" alt="" width="40" height="40"/>
-							</a>
-						</td>
-						<td>
-							<font size="+0.25">&nbsp PhD: Jul' 2013 – Dec’ 2016</font> <br style="line-height: 8px" />
-							<b>&nbsp Centre for Vision, Speech and Signal Processing, University of Surrey, UK </b><br/>
-							&nbsp Thesis: <a href="docs/Thesis_ArminMustafa.pdf">General Dynamic 4D Scene Reconstruction from Multi-view Videos</a><br/> 
-							&nbsp Advisor:  <a href="https://www.surrey.ac.uk/people/adrian-hilton">Prof. Adrian Hilton</a><br/>
-						</td>
-					</tr>
-				</table>
-				<br/>
-				<table class="table-responsive">
-					<tr>
-						<td>
-							<a href="docs/pfc.pdf">
-								<img class="img-rounded" src="docs/files/iitk.png" alt="" width="40" height="40"/>
-							</a>
-						</td>
-						<td>
-							<font size="+0.25">&nbsp M.Tech: Aug’ 2008 – June’ 2010</font> <br style="line-height: 8px" />
-							<b>&nbsp Computer vision lab, Indian Institute of Technology, Kanpur, India</b><br/>
-							&nbsp Thesis: <a href="docs/masters/thesis.pdf"> Finger Gesture Recognition in Dynamic Environment under Varying Illumination</a><br/>
-							&nbsp Advisor:  <a href="http://home.iitk.ac.in/~venkats/index.html">Prof. K.S. Venkatesh</a><br/>
-						</td>
-					</tr>
-				</table>
-				<br/>
-				<table class="table-responsive">
-					<tr>
-						<td>
-							<a href="docs/pfc.pdf">
-								<img class="img-rounded" src="docs/files/davv.png " alt="" width="40" height="40"/>
-							</a>
-						</td>
-						<td>
-							<font size="+0.25">&nbsp B.E.: Aug’ 2004 – May’ 2008</font> <br style="line-height: 8px" />
-							<b>&nbsp Institute of Engineering and Technology, Indore, India</b><br/>
-						</td>
-					</tr>
-				</table>
-				<br/>
-				<br>
-				<p>
-					<font size="+0.25">For detailed CV please <a href="#contact">contact</a> me. </font>
-				</p>
-				<br>
-			</div>
-		</div>
-	</section>
-	<section id="contact">
-		<div class="container-fluid">
-			<div class="cos col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
-				<h3><font size="+2" color="#000080">Contact</font></h3>
-				<!-- <h4>Postal address</h4>
-				<p>
-					Center for Vision, Speech and Signal Processing<br/>
-					University of Surrey<br/>
-					Department of Electronic Engineering<br/>
-					05BB00<br/>
-					Guildford, GU27XH<br/>
-					UK<br/>
-				</p> -->
-				
-				<!-- <h4><b>Online</b></h4>
-				<!-- <i class="glyphicon glyphicon-envelope"></i> <a href="mailto:arminmustafa@gmail.com" target="_blank"> arminmustafa@gmail.com</a><br> 
-				<i class="glyphicon glyphicon-globe"></i> <a target="_blank" href="https://www.linkedin.com/in/armin-mustafa-8b7b886/"> linkedin.com/in/arminmustafa</a><br> -->
-				<i class="glyphicon glyphicon-envelope"></i> <a href="mailto:a.mustafa@surrey.ac.uk" target="_blank"> armin.mustafa@surrey.ac.uk</a><br>
-				<i class=""></i><br>
+<div class="wrap me">
+  <div class="me-text">
+    <p class="eyebrow">N4D Lab · University of Surrey</p>
+    <h1>Armin Mustafa</h1>
+    <p class="titles">Associate Professor in Computer Vision and AI<br><span>PhD, M.Tech, FHEA, DSIT AI Fellow</span><br><span>Centre for Vision, Speech and Signal Processing (CVSSP) · Surrey Institute for People-Centred AI (PAI)</span></p>
+    <p class="lead">I am currently an AI Fellow in the Incubator for Artificial Intelligence (i.AI), Department of Science, Innovation and Technology (DSIT). Previously I held the 5-year Royal Academy of Engineering Research Fellowship in the Centre for Vision, Speech and Signal Processing, University of Surrey, working in 4D Vision for perceptive machines.</p>
+    <p class="lead">The emergence of machines that interact with their environment has led to an increasing demand for automatic visual understanding of the real world. I have over 15 years of experience developing AI systems that enable machines to understand dynamic real-world environments through video, audio and language. My research spans 3D/4D vision, multi-modal AI and human-centred generative technologies, with applications in accessibility, creative industries, autonomous systems and immersive media.</p>
+    <div class="cta">
+      <a class="btn btn-mint" href="#research">My research</a>
+      <a class="btn btn-ink" href="#publications">Publications</a>
+    </div>
+    <div class="social">
+      <a class="btn btn-line" href="https://www.surrey.ac.uk/people/armin-mustafa">Surrey profile</a>
+      <a class="btn btn-line" href="https://scholar.google.co.uk/citations?user=0xOHqkMAAAAJ&hl=en">Google Scholar</a>
+      <a class="btn btn-line" href="https://www.linkedin.com/in/armin-mustafa-8b7b886/">LinkedIn</a>
+      <a class="btn btn-line" href="https://www.turing.ac.uk/people/spotlights/armin-mustafa">Turing interview</a>
+    </div>
+  </div>
+  <div class="me-photo"><img src="assets/armin.jpg" alt="Portrait of Armin Mustafa" width="640" height="640"></div>
+</div>
 
-				<h4><b>Map</b></h4>
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2497.6712896070258!2d-0.5907630845480522!3d51.24354843778183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4875d0c108435331%3A0xfa86e1de8e762d41!2sCentre+for+Vision%2C+Speech+and+Signal+Processing!5e0!3m2!1sen!2sus!4v1492513767293" width="100%" height="300" frameborder="0" style="border:0"></iframe>
-				<!-- horitzontal tab-->
-				<hr>
-			</div>
-		</div>
-	</section>
+<section id="lab">
+  <div class="wrap">
+    <div class="head">
+      <div><p class="eyebrow">N4D Lab · 4D Narrative AI</p><h2>AI that understands <span class="ghost">what happened</span> and why</h2></div>
+      <p class="lead">The N4D Lab studies 4D Narrative AI: combining 4D vision with narrative understanding of video. I direct it at CVSSP, University of Surrey.</p>
+    </div>
+    <div class="stage vgrid reveal">
+      <figure><video class="clip" muted loop playsinline preload="metadata" poster="assets/tile-4d.jpg" aria-label="A multi-view studio video beside its 4D reconstruction, with the person and furniture segmented by colour"><source src="assets/tile-4d.mp4" type="video/mp4"></video><figcaption>4D semantic reconstruction of a dynamic scene from multi-view video</figcaption></figure>
+      <figure><video class="clip" muted loop playsinline preload="metadata" poster="assets/tile-recon.jpg" aria-label="Three rotating 3D reconstructions of clothed people holding or standing by objects"><source src="assets/tile-recon.mp4" type="video/mp4"></video><figcaption>Clothed people and objects reconstructed from a single image</figcaption></figure>
+      <figure class="qafig"><div class="qawrap"><video class="clip" id="motionclip" muted loop playsinline preload="metadata" poster="assets/tile-motion.jpg" aria-label="A person running on grass beside the same motion recovered as a 3D body on a ground grid"><source src="assets/tile-motion.mp4" type="video/mp4"></video><div class="qa" aria-hidden="true"><p class="q"><b>Q</b>From 7.3 to 14.7 s, which way does the person mainly turn?</p><p class="a" id="motionans"><b>A</b>Counterclockwise</p></div></div><figcaption>Human motion lifted from video into world-space 3D, so questions about movement can be answered (HumanMoveVQA)</figcaption></figure>
+      <figure><video class="clip" muted loop playsinline preload="metadata" poster="assets/tile-action.jpg" aria-label="A presenter in a studio with a chart below showing detected actions over time"><source src="assets/tile-action.mp4" type="video/mp4"></video><figcaption>Dense action detection, frame by frame, against ground truth</figcaption></figure>
+      <figure><video class="clip" muted loop playsinline preload="metadata" poster="assets/tile-causal.jpg" aria-label="A cooking video divided into six captioned events, each linked to the events that caused it"><source src="assets/tile-causal.mp4" type="video/mp4"></video><figcaption>Dense causal captioning: each event and what caused it</figcaption></figure>
+    </div>
+  </div>
+</section>
 
-	<section id="footer">
-		<div class="container-fluid">
-			<div class="cos col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
-				<center>
-					<small><i>Armin Mustafa 2017</i></small><br>
-				</center>
-				<br>
-			</div>
-		</div>
-	</section>
+<section id="research" style="padding-top:24px">
+  <div class="wrap">
+    <div class="head">
+      <div><p class="eyebrow">Research</p><h2>Four themes, <span class="ghost">one question</span></h2></div>
+      <p class="lead">How do you get from pixels and sound to an account of a scene that makes sense to a person?</p>
+    </div>
+    <div class="grid2">
+      <article class="card reveal">
+        <h3>3D/4D Vision</h3>
+        <p>Temporally coherent reconstruction of dynamic scenes from multi-view video and light fields, and of people and objects from a single image.</p>
+        <div class="tags"><span class="tag">CVPR</span><span class="tag">ICCV</span><span class="tag">ECCV</span><span class="tag">IJCV</span></div>
+        <div class="shot"><img decoding="async" src="assets/multi-person.jpg" alt="Photos of groups of people with their reconstructed 3D bodies"></div>
+      </article>
+      <article class="card reveal">
+        <h3>Narrative Understanding</h3>
+        <p>Captioning that moves from describing what is on screen to explaining why it happened: causal and temporal links between events.</p>
+        <div class="tags"><span class="tag">NeurIPS</span><span class="tag">ICLR</span><span class="tag">CVPRW</span></div>
+        <div class="shot"><img decoding="async" src="assets/causal-narrative.jpg" alt="A cooking video split into events labelled as causes and effects with a causal matrix"></div>
+      </article>
+      <article class="card reveal">
+        <h3>Video Understanding</h3>
+        <p>Dense action and event detection in long, untrimmed video, with audio-visual parsing and question answering.</p>
+        <div class="tags"><span class="tag">IJCV</span><span class="tag">ECCV</span><span class="tag">AAAI</span><span class="tag">WACV</span></div>
+        <div class="shot"><img decoding="async" src="assets/action-detection.jpg" alt="Timeline of overlapping dense action annotations above video frames"></div>
+      </article>
+      <article class="card reveal">
+        <h3>Generative AI</h3>
+        <p>Controllable generation of people, video and 3D motion from text, pose and style, including text to 3D sign language.</p>
+        <div class="tags"><span class="tag">ICCVW</span><span class="tag">ECCVW</span><span class="tag">3DV</span><span class="tag">BMVC</span></div>
+        <div class="shot"><img decoding="async" src="assets/generative.jpg" alt="Three examples: people generated from pose and text, a generated street scene with many people, and text turned into 3D sign language"></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="publications">
+  <div class="wrap">
+    <div class="head">
+      <div><p class="eyebrow">Publications</p><h2>Selected papers</h2></div>
+      <div class="filters" id="filters" role="group" aria-label="Filter papers by theme"></div>
+    </div>
+    <div class="pubs" id="pubs"></div>
+    <div class="more">
+      <button class="btn btn-mint" id="toggle" type="button" style="cursor:pointer;font-family:inherit">Show all papers</button>
+      <a class="btn btn-line" href="https://scholar.google.co.uk/citations?user=0xOHqkMAAAAJ&hl=en">Full list on Google Scholar</a>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="band">
+  <div class="wrap">
+    <div class="head"><div><p class="eyebrow">Projects</p><h2>Programmes <span class="ghost">since 2013</span></h2></div></div>
+    <div id="projlist"></div>
+    <div class="more"><button class="btn btn-line" id="projtoggle" type="button" style="cursor:pointer;font-family:inherit">Show all programmes</button></div>
+  </div>
+</section>
+
+<section id="impact">
+  <div class="wrap">
+    <div class="head">
+      <div><p class="eyebrow">Application areas</p><h2>Research that <span class="ghost">leaves the lab</span></h2></div>
+    </div>
+    <div class="grid3">
+      <div class="area reveal"><span class="n">01</span><h3>Broadcast and media</h3><p>Personalised captioning, chaptering and relighting for programmes at scale.</p><p class="out"><span>Outcome</span>Our audio-visual captioning research powers two BBC pilots: Moments, which lets BBC Radio 5 Live producers save, title and summarise moments from live broadcasts, and a search tool that helps BBC Creative find the right scenes for trailers.</p><span class="with">BBC R&amp;D · AI4ME</span></div>
+      <div class="area reveal"><span class="n">02</span><h3>Film, VR and creative industries</h3><p>Light-field capture, 3D/4D assets and generative tools for production.</p><p class="out"><span>Outcome</span><a href="https://www.imdb.com/title/tt7379696/">Kinch and the Double World</a>, a light-field VR film nominated at Raindance 2018.</p><span class="with">Foundry · Figment Productions · <a href="https://www.costarnetwork.co.uk/labs/national-lab">CoSTAR</a></span></div>
+      <div class="area reveal"><span class="n">03</span><h3>Accessibility</h3><p>Audio description and video that adapts to the viewer.</p><p class="out"><span>Outcome</span><a href="https://saireco.org">SAIReco</a>’s Video Analysis Suite, shortlisted for Best Innovation in Accessible Tech 2025, and <a href="https://activeprospects.org.uk/ai-can-launches-to-make-artificial-intelligence-accessible-for-everyone/">AI Can</a>, launched with Active Prospects to make AI accessible for everyone.</p><span class="with">Active Prospects · <a href="https://www.surrey.ac.uk/artificial-intelligence/cdt">CDT in AI for Digital Media Inclusion</a></span></div>
+      <div class="area reveal"><span class="n">04</span><h3>Public sector</h3><p>Evaluating multimodal video analysis for government, from transport to body-worn footage.</p><p class="out"><span>Outcome</span>A benchmark and evaluation framework for AI on body-worn video, <a href="https://ai.gov.uk/blogs/open-source-ai-fellowship-update/">reported by i.AI</a> in 2026.</p><span class="with">Incubator for AI</span></div>
+      <div class="area reveal"><span class="n">05</span><h3>Digital humans</h3><p>Realistic, interactive people reconstructed from a single camera.</p><p class="out"><span>Outcome</span>The first model-free method to reconstruct multiple people from one image (CVPR).</p><span class="with">Humain Ltd</span></div>
+      <div class="area reveal"><span class="n">06</span><h3>Autonomous systems</h3><p>Perception that holds up at night and in bad weather.</p><p class="out"><span>Outcome</span>The A*3D dataset (ICRA) and a 13% accuracy gain in A*STAR’s self-driving car.</p><span class="with">A*STAR, Singapore</span></div>
+    </div>
+    <div class="spinout reveal">
+      <video controls preload="none" playsinline poster="assets/saireco-demo.jpg" aria-label="SAIReco product demo: upload a video, get scenes, chapters, transcripts and audio description back"><source src="assets/saireco-demo.mp4" type="video/mp4"></video>
+      <div class="spin-txt">
+        <p class="eyebrow">Spin-out · SAIReco</p>
+        <h3>From accessibility research to a product</h3>
+        <p>I co-founded <a href="https://saireco.org">SAIReco</a> to bring the lab’s video understanding and audio description research to broadcasters and creators. Upload a video once and get scenes, chapters, a transcript and fitted audio description back.</p>
+        <p class="spin-aw">Finalist, Tech Impact Awards 2025 · Shortlisted, Best Innovation in Accessible Tech 2025</p>
+        <a class="btn btn-line" href="https://saireco.org">Visit saireco.org</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="news" class="band">
+  <div class="wrap">
+    <div class="head"><div><p class="eyebrow">News</p><h2>Latest <span class="ghost">from the lab</span></h2></div></div>
+    <div id="newslist"></div>
+    <div class="more"><button class="btn btn-line" id="newstoggle" type="button" style="cursor:pointer;font-family:inherit">Show all news</button></div>
+  </div>
+</section>
+
+<section id="team" style="padding-top:24px">
+  <div class="wrap">
+    <div class="head"><div><p class="eyebrow">N4D Lab</p><h2>Team <span class="ghost">and alumni</span></h2></div></div>
+    <p class="sub" style="margin-top:0">Team</p>
+    <div class="people" id="people"></div>
+    <p class="sub">Alumni</p>
+    <div class="people" id="alumni-list"></div>
+  </div>
+</section>
+
+<section id="awards-section" class="compact">
+  <div class="wrap">
+    <div class="head"><div><p class="eyebrow">Recognition</p><h2>Awards</h2></div></div>
+    <div class="awards" id="awards"></div>
+  </div>
+</section>
+
+<section id="services" class="compact">
+  <div class="wrap">
+    <div class="head">
+      <div><p class="eyebrow">Services</p><h2>Serving <span class="ghost">the community</span></h2></div>
+      <p class="lead">My editorial, conference, advisory and outreach roles.</p>
+    </div>
+    <div class="svcgrid" id="servicelist"></div>
+  </div>
+</section>
+
+<section id="contact" style="padding-top:24px">
+  <div class="wrap">
+    <div class="close reveal">
+      <p class="eyebrow">Contact</p>
+      <p class="contact-q">Interested in a PhD in my lab, or in working together?</p>
+      <div class="cta">
+        <a class="btn btn-ink" id="mailbtn" href="#contact">Email me</a>
+        <button class="btn btn-line" id="copybtn" type="button">Copy email address</button>
+      </div>
+      <p class="addr">Centre for Vision, Speech and Signal Processing<br>University of Surrey, Guildford GU2 7XH, UK</p>
+      <p class="sr-only" id="copystatus" aria-live="polite"></p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <span>© <span id="yr">2026</span> Armin Mustafa · N4D Lab · CVSSP · University of Surrey</span>
+    <span><a href="https://www.surrey.ac.uk/people/armin-mustafa">Surrey profile</a><a href="https://saireco.org">SAIReco</a><a href="#research">Research</a><a href="#publications">Publications</a><a href="#lab">Lab</a><a href="#services">Services</a><a href="#contact">Contact</a></span>
+  </div>
+</footer>
+
+<script>
+// ---------- content: edit these lists to update the site ----------
+const PUBS = [
+ // [theme, venue, title, authors, url]
+ ["Applications", "arXiv 2026", "From Weapons to Events: Evaluating Evidential Support in Multimodal AI for Policing", "A. Mustafa, S. S. Husain", "https://arxiv.org/abs/2611.10245v1"],
+ ["Narrative", "NeurIPS 2026", "Causal-VLM: Dense Causal Captioning in Videos", "A. Nadeem, M. Awan, M. Awais, R. Dawes, A. Hilton, A. Mustafa", "https://causalvlm.github.io"],
+ ["Video understanding", "IJCV 2026", "An Effective-Efficient Approach for Dense Multi-Label Action Detection", "F. Sardari, A. Mustafa, P. Jackson, A. Hilton", ""],
+ ["Video understanding", "CVMP 2026", "Catalogue Grounded Multimodal Attribution for Museum Video under Resource and Regulatory Constraints", "M. Nanang, A. Hilton, A. Mustafa", "https://arxiv.org/abs/2603.11147"],
+ ["Narrative", "ICLR 2025", "NarrativeBridge: Enhancing Video Captioning with Causal-Temporal Narrative", "A. Nadeem, F. Sardari, R. Dawes, S. Husain, A. Hilton, A. Mustafa", "https://narrativebridge.github.io"],
+ ["Video understanding", "ICLR 2025", "SSLAM: Enhancing Self-Supervised Models with Audio Mixtures for Polyphonic Soundscapes", "T. Alex, S. Atito, A. Mustafa, M. Awais, P. Jackson", ""],
+ ["3D/4D", "CVMP 2025", "Realistic Clothed Human and Object Joint Reconstruction from a Single Image", "A. Dutta, M. Pesavento, M. Volino, A. Hilton, A. Mustafa", ""],
+ ["Generative", "CVMP 2025", "Image-based Facial Rig Inversion", "T. Yang, M. Volino, A. Mustafa, G. Maguire, R. Kosk", "https://arxiv.org/abs/2510.13933"],
+ ["Video understanding", "ECCV 2024", "CoLeaF: A Contrastive-Collaborative Learning Framework for Weakly Supervised Audio-Visual Video Parsing", "F. Sardari, A. Mustafa, P. Jackson, A. Hilton", ""],
+ ["Video understanding", "WACV 2024", "CAD: Contextual Multi-modal Alignment for Dynamic AVQA", "A. Nadeem, A. Hilton, R. Dawes, G. Thomas, A. Mustafa", ""],
+ ["Video understanding", "AAAI 2024", "DTF-AT: Decoupled Time-Frequency Audio Transformer for Event Classification", "T. Alex, S. Ahmed, A. Mustafa, M. Awais, P. Jackson", ""],
+ ["Generative", "ECCVW 2024", "ViscoNet: Bridging and Harmonizing Visual and Textual Conditioning for ControlNet", "S. Y. Cheong, A. Mustafa, A. Gilbert", "https://arxiv.org/abs/2312.03154"],
+ ["Generative", "BMVC 2025", "Boosting Camera Motion Control for Video Diffusion Transformers", "S. Y. Cheong, D. Ceylan, A. Mustafa, A. Gilbert, C.-H. P. Huang", "https://arxiv.org/abs/2410.10802"],
+ ["Applications", "CVPRW 2024", "S3R-Net: A Single-Stage Approach to Self-Supervised Shadow Removal", "N. Kubiak, A. Mustafa, G. Phillipson, S. Jolly, S. Hadfield", ""],
+ ["Narrative", "CVPRW 2023", "SEM-POS: Grammatically and Semantically Correct Video Captioning", "A. Nadeem, A. Hilton, R. Dawes, G. Thomas, A. Mustafa", ""],
+ ["Video understanding", "ICCVW 2023", "PAT: Position-Aware Transformer for Dense Multi-Label Action Detection", "F. Sardari, A. Mustafa, P. Jackson, A. Hilton", "https://openaccess.thecvf.com/content/ICCV2023W/CVEU/html/Sardari_PAT_Position-Aware_Transformer_for_Dense_Multi-Label_Action_Detection_ICCVW_2023_paper.html"],
+ ["Generative", "ICCVW 2023", "UPGPT: Universal Diffusion Model for Person Image Generation, Editing and Pose Transfer", "S. Y. Cheong, A. Mustafa, A. Gilbert", "https://arxiv.org/abs/2304.08870"],
+ ["3D/4D", "IJCV 2022", "4D Temporally Coherent Multi-Person Semantic Reconstruction and Segmentation", "A. Mustafa, C. Russell, A. Hilton", "https://link.springer.com/article/10.1007/s11263-022-01599-4"],
+ ["Generative", "3DV 2022", "There and Back Again: 3D Sign Language Generation from Text Using Back-Translation", "S. Stoll, A. Mustafa, J.-Y. Guillemaut", ""],
+ ["Generative", "BMVC 2022", "Pose Guided Multi-person Image Generation from Text", "S. Y. Cheong, A. Mustafa, A. Gilbert", "https://arxiv.org/abs/2203.04907"],
+ ["3D/4D", "CVPR 2021", "Multi-person Implicit Reconstruction from a Single Image", "A. Mustafa, A. Caliskan, L. Agapito, A. Hilton", "https://openaccess.thecvf.com/content/CVPR2021/html/Mustafa_Multi-Person_Implicit_Reconstruction_From_a_Single_Image_CVPR_2021_paper.html"],
+ ["3D/4D", "IJCV 2021", "Temporally Coherent General Dynamic Scene Reconstruction", "A. Mustafa, M. Volino, H. Kim, J.-Y. Guillemaut, A. Hilton", "https://link.springer.com/article/10.1007/s11263-020-01367-2"],
+ ["Applications", "BMVC 2021", "SILT: Self-supervised Lighting Transfer Using Implicit Image Decomposition", "N. Kubiak, A. Mustafa, G. Phillipson, S. Jolly, S. Hadfield", "https://arxiv.org/abs/2110.12914"],
+ ["3D/4D", "ACCV 2020", "Multi-View Consistency Loss for Improved Single-Image 3D Reconstruction of Clothed People", "A. Caliskan, A. Mustafa, E. Imre, A. Hilton", "https://openaccess.thecvf.com/content/ACCV2020/html/Caliskan_Multi-View_Consistency_Loss_for_Improved_Single-Image_3D_Reconstruction_of_Clothed_ACCV_2020_paper.html"],
+ ["Applications", "ICRA 2020", "A*3D Dataset: Towards Autonomous Driving in Challenging Environments", "Q.-H. Pham, P. Sevestre, R. S. Pahwa, H. Zhan, C. H. Pang, Y. Chen, A. Mustafa, V. Chandrasekhar, J. Lin", "https://github.com/I2RDL2/ASTAR-3D"],
+ ["3D/4D", "ICCV 2019", "U4D: Unsupervised 4D Dynamic Scene Understanding", "A. Mustafa, C. Russell, A. Hilton", "http://cvssp.org/projects/4DMP/U4D/"],
+ ["3D/4D", "IJCV 2019", "Semantically Coherent 4D Scene Flow of Dynamic Scenes", "A. Mustafa, A. Hilton", "http://cvssp.org/projects/4DMP/SC4D/"],
+ ["3D/4D", "CVPR 2017", "Semantically Coherent Co-segmentation and Reconstruction of Dynamic Scenes", "A. Mustafa, A. Hilton", "http://cvssp.org/projects/4DMP/SemRecon/"],
+ ["3D/4D", "3DV 2017", "4D Temporally Coherent Light-field Video (Spotlight)", "A. Mustafa, M. Volino, J.-Y. Guillemaut, A. Hilton", "http://cvssp.org/projects/4DMP/4DLFV/"],
+ ["3D/4D", "CVPR 2016", "Temporally Coherent 4D Reconstruction of Complex Dynamic Scenes (Oral)", "A. Mustafa, H. Kim, J.-Y. Guillemaut, A. Hilton", "http://cvssp.org/projects/4DMP/4DRecon/"],
+ ["3D/4D", "ECCV 2016", "4D Match Trees for Non-rigid Surface Alignment", "A. Mustafa, H. Kim, A. Hilton", "http://cvssp.org/projects/4DMP/4Dnonseq/"],
+ ["3D/4D", "ICCV 2015", "General Dynamic Scene Reconstruction from Multiple View Video", "A. Mustafa, H. Kim, J.-Y. Guillemaut, A. Hilton", "http://cvssp.org/projects/4DMP/DyRecon/"]
+];
+const PROJECTS = [
+ ["2026 to 2027","Open Source AI Fellowship","i.AI · Alan Turing Institute · Meta","A horizon scan for the Department for Transport and an evaluation framework for AI on body-worn video.","https://www.gov.uk/government/news/top-british-ai-expertise-to-help-spark-renewal-of-public-services-and-bolster-national-security"],
+ ["Ongoing","CDT in AI for Digital Media Inclusion","UKRI Centre for Doctoral Training","A PhD programme that puts inclusion at the centre of AI for media; home to several of the lab's students.","https://www.surrey.ac.uk/artificial-intelligence/cdt"],
+ ["2023 to 2033","CoSTAR National Lab","AHRC · Royal Holloway and partners","Creative AI Lead: generative AI, scene understanding and 3D/4D asset creation for the creative industries.","https://www.costarnetwork.co.uk/labs/national-lab"],
+ ["2022 to 2025","Interactive digital humans","Knowledge Transfer Partnership · Humain Ltd","Transferring digital human research into a UK company’s interactive products.",""],
+ ["2021 to 2026","AI4ME","UKRI Prosperity Partnership · BBC, Lancaster","Academic lead for audio-visual AI: scene understanding, captioning and personalised object-based media.","https://ai4me.surrey.ac.uk"],
+ ["2018 to 2024","4D Vision for Perceptive Machines","Royal Academy of Engineering Research Fellowship","Robust machine perception of dynamic scenes through single-view reconstruction and understanding.",""],
+ ["2016 to 2017","ALIVE","Innovate UK · Figment Productions, Foundry","Live-action light fields for immersive VR; produced the short film Kinch and the Double World.","https://www.imdb.com/title/tt7379696/"],
+ ["2013 to 2015","IMPART","EU FP7 · FilmLight, Double Negative","Big multimodal data problems in digital cinema production.",""]
+];
+const PEOPLE = [
+ ["Mona Ahmadian","4D Gaussian splatting for digital humans"],
+ ["Ayushi Dutta","PhD · Multi-person Reconstruction and Rendering of Dynamic Scenes"],
+ ["Sarthak Batra","PhD · Text or Video to 3D for Scenes with Multiple Interacting People"],
+ ["Pulkit Gera","PhD · Human Spatial Understanding from Video"],
+ ["Mahrukh Awan","PhD · Understanding Behavioral Patterns through Multi-Modal Learning"],
+ ["Minsak Nanang","PhD · Inclusive Video Editing and Description"],
+ ["Irene Munoz Lopez","PhD · Adaptive Audio-Description Generation for Dynamic Inclusion"],
+ ["Claude Boucher","PhD · Visual LLMs for Robust Video Editing"],
+ ["Paul Wu","Audio-visual video understanding"],
+ ["Ruari Molyneux","Translating research into BBC tools"]
+];
+const ALUMNI = [
+ ["Faegheh Sardari","Postdoc 2025 · Action detection and audio-visual parsing"],
+ ["Asmar Nadeem","PhD 2026 · Audio-visual object-based dynamic scene representation from monocular video"],
+ ["Soon Yau Cheong","PhD 2024 · Multimodal Conditioning for Controllable Image and Video Generation"],
+ ["Nikolina Kubiak","PhD 2024 · Computational relighting in video"],
+ ["Mertalp Öcal","PhD 2024 · Self-Supervised 3D Reconstruction of Dynamic Scenes"],
+ ["Stephanie Stoll","PhD 2022 · Automatic sign language production"],
+ ["Akin Caliskan","PhD 2021 · Dynamic 3D human reconstruction from video"],
+ ["Dhruvraj Singh Rawat","2025 · Dense action and event detection"],
+ ["Violeta Menéndez González","2025 · Translating Gaussian splats into tools for the creative industries"]
+];
+const NEWS = [
+ // [date, text, url]
+ ["Nov 2026","PAL: Probing Audio Encoders via LLMs is accepted at EACL 2027.","https://arxiv.org/abs/2506.10423"],
+ ["Nov 2026","New preprint from the fellowship: From Weapons to Events: Evaluating Evidential Support in Multimodal AI for Policing.","https://arxiv.org/abs/2611.10245v1"],
+ ["Nov 2026","The Alan Turing Institute publishes a spotlight interview.","https://www.turing.ac.uk/people/spotlights/armin-mustafa"],
+ ["Sep 2026","Causal-VLM: Dense Causal Captioning in Videos is accepted at NeurIPS 2026.","https://causalvlm.github.io"],
+ ["2026","A LinkedIn article features our work on AI that understands the why in videos.","https://www.linkedin.com/pulse/breakthrough-ai-understands-why-videos-z8ipe/"],
+ ["Sep 2026","i.AI publishes an update on the Open-Source AI Fellowship, covering our horizon scan for the Department for Transport and a benchmark for AI on body-worn video.","https://ai.gov.uk/blogs/open-source-ai-fellowship-update/"],
+ ["Jul 2026","A PhD thesis from my lab, Multi-Modal Narrative Understanding for Videos, is presented at Surrey.","https://www.surrey.ac.uk/events/20260717-multi-modal-narrative-understanding-videos"],
+ ["2026","Our paper on effective and efficient dense multi-label action detection appears in IJCV.",""],
+ ["Jan 2026","Named an AI Fellow at the Incubator for AI, announced by the UK Government.","https://www.gov.uk/government/news/top-british-ai-expertise-to-help-spark-renewal-of-public-services-and-bolster-national-security"],
+ ["2025","NarrativeBridge and SSLAM are presented at ICLR 2025.",""]
+];
+const SERVICE = [
+ ["Editorial and boards",[
+  "Associate Editor, IEEE Transactions on Circuits and Systems for Video Technology, 2026 to now",
+  "Advisory Board, ACM SIGGRAPH CVMP, 2025"]],
+ ["Conference leadership",[
+  "Programme Chair, CVMP 2024 and 2023",
+  "Workshop Chair, BMVC 2024 and 2023; Programme and Workshop Chair, BMVC 2022",
+  "Full Papers Chair, CVMP 2022; Short Papers and Demo Chair, CVMP 2021",
+  "Area Chair, 3DV 2022 and 2020; Publications Chair, 3DV 2021"]],
+ ["Workshops co-founded and organised",[
+  "Video Understanding and its Applications, at BMVC 2024 and 2023",
+  "DynaVis: Dynamic Scene Reconstruction, at CVPR 2023, 2021, 2020 and 2019",
+  "BMVA technical meeting on Dynamic Scene Reconstruction, 2017"]],
+ ["University",[
+  "Principal Interdisciplinary AI Fellow, Surrey Institute for People-Centred AI, 2026 to now",
+  "School Alumni Lead, Computer Science and Electronic Engineering, 2024 to 2026",
+  "Early Career Representative, CVSSP, 2019 to 2021"]],
+ ["Outreach",[
+  "STEM Ambassador, STEM Learning UK, 2019 to now",
+  "Judge, STEM for Britain at the UK Parliament, 2021 to 2026",
+  "Judge and STEM panellist, Big Bang UK Young Scientists Fair, 2021 to 2025"]]
+];
+const AWARDS = [
+ ["2026","Rising Star Award, Education and Academia, We Are The City","https://risingstars.wearethecity.com/armin-mustafa-rising-stars-winner-2026/"],
+ ["2025","Academic Leader of the Year, Novi Awards","https://www.thenoviawards.com/novi-winners-2025/"],
+ ["2025","TechWomen100 winner, We Are Tech Women","https://wearetechwomen.com/armin-mustafa-associate-professor-saireco-ltd-university-of-surrey/"],
+ ["2025","Finalist, Best Accessibility Tech for SAIReco, Tech Impact Awards","https://www.costarnetwork.co.uk/latest/costar-ideate-company-saireco-nominated-for-prestigious-tech-impact-award"],
+ ["2022","Best Short Paper, CVMP, for RealMonoDepth",""],
+ ["2018","Innovate Guildford Awards, for the VR film with Figment Productions",""],
+ ["2017","Young Researcher Award, CVPR",""]
+];
+// ---------- rendering ----------
+const el=(t,c,h)=>{const e=document.createElement(t);if(c)e.className=c;if(h!=null)e.textContent=h;return e};
+const themes=["All","3D/4D","Narrative","Video understanding","Generative","Applications"];
+let active="All", showAll=false;
+function drawPubs(){
+  const box=document.getElementById('pubs');box.replaceChildren();
+  const list=PUBS.filter(p=>active==="All"||p[0]===active);
+  const shown=(active==="All"&&!showAll)?list.slice(0,6):list;
+  const tg=document.getElementById('toggle');
+  tg.hidden=!(active==="All"&&list.length>6);
+  tg.textContent=showAll?'Show fewer':'Show all '+list.length+' papers';
+  shown.forEach(p=>{
+    const r=el('div','pub');r.append(el('div','v',p[1]));
+    const m=el('div');m.append(el('div','t',p[2]),el('div','a',p[3]));r.append(m);
+    if(p[4]){const a=el('a','go',p[4].includes('github.io')?'Project page →':'Paper →');a.href=p[4];r.append(a)}else r.append(el('span'));
+    box.append(r);
+  });
+}
+const fb=document.getElementById('filters');
+themes.forEach(t=>{const b=el('button',null,t);b.type='button';b.setAttribute('aria-pressed',t===active);
+  b.onclick=()=>{active=t;[...fb.children].forEach(x=>x.setAttribute('aria-pressed',x===b));drawPubs()};fb.append(b)});
+document.getElementById('toggle').onclick=()=>{showAll=!showAll;drawPubs()};
+drawPubs();
+const pl=document.getElementById('projlist');
+let projAll=false;
+function drawProj(){pl.replaceChildren();
+  (projAll?PROJECTS:PROJECTS.slice(0,5)).forEach(p=>{const r=el('div','proj');r.append(el('div','y',p[0]));
+    const m=el('div');const h=el('h3');if(p[4]){const a=el('a',null,p[1]);a.href=p[4];h.append(a)}else h.textContent=p[1];
+    m.append(h,el('div','who',p[2]));r.append(m,el('p','d',p[3]));pl.append(r)});
+  const b=document.getElementById('projtoggle');b.textContent=projAll?'Show fewer':'Show all '+PROJECTS.length+' programmes';}
+document.getElementById('projtoggle').onclick=()=>{projAll=!projAll;drawProj()};
+drawProj();
+const fill=(id,list)=>{const b=document.getElementById(id);list.forEach(p=>{const c=el('div','person');c.append(el('div','nm',p[0]));if(p[1]){const t=el('div','tp');if(p[2]){const a=el('a',null,p[1]);a.href=p[2];t.append(a)}else t.textContent=p[1];c.append(t)}b.append(c)})};
+fill('people',PEOPLE);fill('alumni-list',ALUMNI);
+const nl=document.getElementById('newslist');
+let newsAll=false;
+function drawNews(){nl.replaceChildren();
+  (newsAll?NEWS:NEWS.slice(0,6)).forEach(n=>{const r=el('div','proj news');r.append(el('div','y',n[0]));
+    const p=el('p');if(n[2]){const a=el('a',null,n[1]);a.href=n[2];p.append(a)}else p.textContent=n[1];r.append(p);nl.append(r)});
+  const b=document.getElementById('newstoggle');b.hidden=NEWS.length<=6;b.textContent=newsAll?'Show fewer':'Show all '+NEWS.length+' news items';}
+document.getElementById('newstoggle').onclick=()=>{newsAll=!newsAll;drawNews()};
+drawNews();
+const sv=document.getElementById('servicelist');
+SERVICE.forEach(g=>{const c=el('div','svc');c.append(el('h3',null,g[0]));const u=el('ul');g[1].forEach(t=>u.append(el('li',null,t)));c.append(u);sv.append(c)});
+const aw=document.getElementById('awards');
+AWARDS.forEach(a=>{const r=el('div','award');const t=el('span');if(a[2]){const l=el('a',null,a[1]);l.href=a[2];t.append(l)}else t.textContent=a[1];r.append(el('span','y',a[0]),t);aw.append(r)});
+// marquee: duplicate once for a seamless loop
+// mobile menu
+const menu=document.getElementById('menu'),links=document.getElementById('links');
+menu.onclick=()=>{const o=links.classList.toggle('open');menu.setAttribute('aria-expanded',o)};
+links.addEventListener('click',e=>{if(e.target.tagName==='A'){links.classList.remove('open');menu.setAttribute('aria-expanded',false)}});
+// result clips: play only while on screen; respect reduced-motion
+const calm=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+const vo=new IntersectionObserver(es=>es.forEach(e=>{const v=e.target;if(e.isIntersecting){const p=v.play();if(p)p.catch(()=>{v.controls=true})}else v.pause()}),{threshold:.3});
+document.querySelectorAll('video.clip').forEach(v=>{if(calm){v.controls=true}else vo.observe(v)});
+// contact: address assembled here so it is not sitting in the page for scrapers
+const addr=['armin.mustafa','surrey.ac.uk'].join('@');
+const mb=document.getElementById('mailbtn'); mb.href='mailto:'+addr; mb.title=addr;
+const cb=document.getElementById('copybtn'), cs=document.getElementById('copystatus');
+cb.addEventListener('click',async()=>{
+  try{await navigator.clipboard.writeText(addr);cb.textContent='Copied: '+addr;cs.textContent='Email address copied'}
+  catch(e){cb.textContent=addr;cs.textContent=addr}
+  setTimeout(()=>{cb.textContent='Copy email address'},4000);
+});
+// HumanMoveVQA tile: reveal the answer during the window the question asks about
+const mc=document.getElementById('motionclip'), ma=document.getElementById('motionans');
+if(mc&&ma){if(calm){ma.classList.add('on')}else{mc.addEventListener('timeupdate',()=>{ma.classList.toggle('on',mc.currentTime>=7.3&&mc.currentTime<=14.9)})}}
+// reveal on scroll
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
+document.querySelectorAll('.reveal').forEach(x=>io.observe(x));
+document.getElementById('yr').textContent=new Date().getFullYear();
+</script>
 </body>
 </html>
-<script type="text/javascript">    
-    /* SCROLL ALL LINKS */
-    $('#menu .navbar-left li a, .navbar-brand').bind('click', function(e) {
-        e.preventDefault(); // Disable default action (which is going to link directly, and so we are doing Molon scroll)
-        $('html,body').animate({scrollTop: $(this.hash).offset().top - 70}, 'slow');                                                         
-    });
-</script>
