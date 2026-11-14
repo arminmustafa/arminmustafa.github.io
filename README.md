@@ -19,3 +19,9 @@ Static site: `index.html` and `assets/`. No build step.
 - The page carries a title, description, keywords, canonical link and structured data (Person and N4D Lab) for "4D Narrative AI".
 - After publishing, add the site in Google Search Console and submit `https://arminmustafa.github.io/sitemap.xml`.
 - Links from other sites matter most: point your Surrey profile, Google Scholar homepage, LinkedIn and the RAEng page to https://arminmustafa.github.io.
+
+## Analytics
+
+Visits are counted with GoatCounter, which uses no cookies, so no consent banner is needed.
+See the stats at https://arminmustafa.goatcounter.com (sign in with your GoatCounter account).
+The tracking line is the `goatcounter` script just before `</body>` in `index.html`.
