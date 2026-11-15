@@ -36,14 +36,11 @@
       Armin Mustafa <span class="brand-sub">N4D Lab</span>
     </a>
     <nav class="links" id="links" aria-label="Main">
-      <a href="#lab">Lab</a>
       <a href="#research">Research</a>
       <a href="#publications">Publications</a>
-      <a href="#projects">Projects</a>
       <a href="#impact">Impact</a>
       <a href="#news">News</a>
-      <a href="#team">Team</a>
-      <a href="#services">Services</a>
+      <a href="#team">Lab</a>
       <a class="btn btn-mint" href="#contact">Contact</a>
     </nav>
     <button class="menu" id="menu" aria-label="Open menu" aria-expanded="false" aria-controls="links"><span></span><span></span><span></span></button>
@@ -267,11 +264,11 @@
     <a href="https://ai.gov.uk" aria-label="Incubator for Artificial Intelligence (i.AI)"><img src="assets/logo-iai.png" alt="i.AI, Incubator for Artificial Intelligence" width="64" height="40"></a>
     <a href="https://www.turing.ac.uk" aria-label="The Alan Turing Institute"><img src="assets/logo-turing.png" alt="The Alan Turing Institute" width="95" height="40"></a>
     <a href="https://raeng.org.uk" aria-label="Royal Academy of Engineering"><img src="assets/logo-raeng.png" alt="Royal Academy of Engineering" width="147" height="40"></a>
-    <a href="https://saireco.org" aria-label="SAIReco"><img src="assets/logo-saireco.png" alt="SAIReco" width="118" height="40"></a>
+    <a href="https://saireco.org" aria-label="SAIReco"><img src="assets/logo-saireco.png" alt="SAIReco" width="151" height="26" class="lg-sai"></a>
   </div>
   <div class="wrap foot">
     <span>© <span id="yr">2026</span> Armin Mustafa · N4D Lab · CVSSP · University of Surrey</span>
-    <span><a href="https://www.surrey.ac.uk/people/armin-mustafa">Surrey profile</a><a href="https://saireco.org">SAIReco</a><a href="#research">Research</a><a href="#publications">Publications</a><a href="#lab">Lab</a><a href="#services">Services</a><a href="#consultancy">Consultancy</a><a href="#contact">Contact</a></span>
+    <span><a href="https://www.surrey.ac.uk/people/armin-mustafa">Surrey profile</a><a href="https://saireco.org">SAIReco</a><a href="#projects">Projects</a><a href="#services">Services</a><a href="#consultancy">Consultancy</a><a href="#faq">FAQ</a><a href="#contact">Contact</a></span>
   </div>
 </footer>
 
@@ -332,6 +329,7 @@ const PEOPLE = [
  ["Minsak Nanang","PhD · Inclusive Video Editing and Description"],
  ["Irene Munoz Lopez","PhD · Adaptive Audio-Description Generation for Dynamic Inclusion"],
  ["Claude Boucher","PhD · Visual LLMs for Robust Video Editing"],
+ ["Peter Bradley","PhD · Neurosymbolic AI for Storytelling"],
  ["Paul Wu","Audio-visual video understanding"],
  ["Ruari Molyneux","Translating research into BBC tools"]
 ];
@@ -404,7 +402,7 @@ function drawPubs(){
   shown.forEach(p=>{
     const r=el('div','pub');r.append(el('div','v',p[1]));
     const m=el('div');m.append(el('div','t',p[2]),el('div','a',p[3]));r.append(m);
-    const lk=el('div','links');
+    const lk=el('div','plinks');
     if(p[4]){const a=el('a','go',p[4].includes('github.io')?'Project page →':'Paper →');a.href=p[4];lk.append(a)}
     if(p[5]){const a=el('a','go','Code →');a.href=p[5];lk.append(a)}
     if(p[6]){const a=el('a','go','Dataset →');a.href=p[6];lk.append(a)}

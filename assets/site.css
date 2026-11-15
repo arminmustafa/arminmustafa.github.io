@@ -310,10 +310,10 @@ section{padding:64px 0}
 @media (max-width:900px){.consult{grid-template-columns:1fr 1fr}}
 @media (max-width:560px){.consult{grid-template-columns:1fr}}
 
-.pub .links{display:flex;gap:14px;white-space:nowrap}
-@media (max-width:900px){.pub .links{margin-top:2px}}
+.pub .plinks{display:flex;gap:14px;white-space:nowrap}
+@media (max-width:900px){.pub .plinks{margin-top:2px}}
 
-.pub .links a{text-decoration:underline;text-underline-offset:3px}
+.pub .plinks a{text-decoration:underline;text-underline-offset:3px}
 
 .skip{position:absolute;left:12px;top:-60px;z-index:100;background:var(--ink);color:#fff;padding:10px 16px;border-radius:8px;text-decoration:none;font-size:14px}
 .skip:focus{top:12px}
@@ -325,3 +325,6 @@ main:focus{outline:none}
 .qa-item summary::after{content:"+";font-family:var(--sans);font-size:22px;color:var(--muted);transition:transform .2s}
 .qa-item[open] summary::after{transform:rotate(45deg)}
 .qa-item p{color:var(--muted);margin:0 0 20px;max-width:72ch}
+
+.logos img.lg-sai{height:26px}
+@media (max-width:560px){.logos img.lg-sai{height:21px}}
